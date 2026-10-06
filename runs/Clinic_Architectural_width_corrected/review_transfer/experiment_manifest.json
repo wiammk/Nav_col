@@ -1,0 +1,34 @@
+{
+  "declared_at_utc": "2026-10-05T21:30:48.735463+00:00",
+  "purpose": "Replacement of invalid legacy Clinic width-based transfer interpretation",
+  "methods": [
+    "zero_shot",
+    "fine_tuning",
+    "from_scratch"
+  ],
+  "algorithms": [
+    "dqn",
+    "ppo"
+  ],
+  "training_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "budgets": [
+    0,
+    10,
+    50,
+    100
+  ],
+  "test_seed": 33003,
+  "same_frozen_protocol_across_modes_and_seeds": true,
+  "statistical_tests": "descriptive seed-level intervals only"
+}

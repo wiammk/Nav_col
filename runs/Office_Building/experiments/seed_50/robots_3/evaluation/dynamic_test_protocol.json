@@ -1,0 +1,4408 @@
+{
+  "seed": 44004,
+  "regime": "dynamic_edge_closure",
+  "single": [],
+  "multi": [
+    {
+      "scenario_id": 0,
+      "robots": 3,
+      "starts": [
+        33,
+        74,
+        9
+      ],
+      "targets": [
+        53,
+        35,
+        49
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          74,
+          76
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 1,
+      "robots": 3,
+      "starts": [
+        22,
+        11,
+        31
+      ],
+      "targets": [
+        18,
+        49,
+        74
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          9,
+          16
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 2,
+      "robots": 3,
+      "starts": [
+        22,
+        79,
+        1
+      ],
+      "targets": [
+        4,
+        53,
+        59
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          40,
+          37
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 3,
+      "robots": 3,
+      "starts": [
+        63,
+        30,
+        34
+      ],
+      "targets": [
+        17,
+        33,
+        31
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          22,
+          20
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 4,
+      "robots": 3,
+      "starts": [
+        42,
+        9,
+        1
+      ],
+      "targets": [
+        18,
+        45,
+        0
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          37,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 5,
+      "robots": 3,
+      "starts": [
+        56,
+        32,
+        41
+      ],
+      "targets": [
+        50,
+        49,
+        70
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          32,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 6,
+      "robots": 3,
+      "starts": [
+        36,
+        3,
+        32
+      ],
+      "targets": [
+        80,
+        79,
+        35
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          77,
+          78
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 7,
+      "robots": 3,
+      "starts": [
+        21,
+        30,
+        79
+      ],
+      "targets": [
+        59,
+        37,
+        76
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          31,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 8,
+      "robots": 3,
+      "starts": [
+        33,
+        57,
+        70
+      ],
+      "targets": [
+        56,
+        78,
+        55
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          57,
+          78
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 9,
+      "robots": 3,
+      "starts": [
+        19,
+        46,
+        77
+      ],
+      "targets": [
+        65,
+        70,
+        40
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          32,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 10,
+      "robots": 3,
+      "starts": [
+        3,
+        8,
+        33
+      ],
+      "targets": [
+        11,
+        50,
+        7
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          16,
+          15
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 11,
+      "robots": 3,
+      "starts": [
+        42,
+        48,
+        46
+      ],
+      "targets": [
+        79,
+        6,
+        34
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          47,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 12,
+      "robots": 3,
+      "starts": [
+        75,
+        3,
+        39
+      ],
+      "targets": [
+        12,
+        11,
+        56
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          2,
+          13
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 13,
+      "robots": 3,
+      "starts": [
+        34,
+        41,
+        44
+      ],
+      "targets": [
+        40,
+        74,
+        22
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          76,
+          74
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 14,
+      "robots": 3,
+      "starts": [
+        38,
+        57,
+        74
+      ],
+      "targets": [
+        7,
+        19,
+        43
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          32,
+          19
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 15,
+      "robots": 3,
+      "starts": [
+        54,
+        3,
+        34
+      ],
+      "targets": [
+        26,
+        10,
+        53
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          13,
+          10
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 16,
+      "robots": 3,
+      "starts": [
+        8,
+        81,
+        24
+      ],
+      "targets": [
+        69,
+        21,
+        19
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          24,
+          23
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 17,
+      "robots": 3,
+      "starts": [
+        32,
+        5,
+        30
+      ],
+      "targets": [
+        38,
+        31,
+        40
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          22,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 18,
+      "robots": 3,
+      "starts": [
+        27,
+        40,
+        1
+      ],
+      "targets": [
+        4,
+        14,
+        33
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          15,
+          14
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 19,
+      "robots": 3,
+      "starts": [
+        60,
+        73,
+        68
+      ],
+      "targets": [
+        17,
+        70,
+        62
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          68,
+          70
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 20,
+      "robots": 3,
+      "starts": [
+        22,
+        81,
+        62
+      ],
+      "targets": [
+        73,
+        41,
+        5
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          38,
+          41
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 21,
+      "robots": 3,
+      "starts": [
+        29,
+        3,
+        66
+      ],
+      "targets": [
+        65,
+        11,
+        57
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          78,
+          57
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 22,
+      "robots": 3,
+      "starts": [
+        72,
+        80,
+        77
+      ],
+      "targets": [
+        25,
+        30,
+        53
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          22,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 23,
+      "robots": 3,
+      "starts": [
+        47,
+        34,
+        49
+      ],
+      "targets": [
+        2,
+        31,
+        60
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          3,
+          2
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 24,
+      "robots": 3,
+      "starts": [
+        6,
+        38,
+        76
+      ],
+      "targets": [
+        0,
+        31,
+        51
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          22,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 25,
+      "robots": 3,
+      "starts": [
+        30,
+        63,
+        29
+      ],
+      "targets": [
+        75,
+        78,
+        6
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          34,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 26,
+      "robots": 3,
+      "starts": [
+        4,
+        33,
+        39
+      ],
+      "targets": [
+        67,
+        8,
+        60
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          39,
+          37
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 27,
+      "robots": 3,
+      "starts": [
+        71,
+        67,
+        20
+      ],
+      "targets": [
+        80,
+        12,
+        58
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          20,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 28,
+      "robots": 3,
+      "starts": [
+        20,
+        1,
+        31
+      ],
+      "targets": [
+        44,
+        8,
+        54
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          47,
+          46
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 29,
+      "robots": 3,
+      "starts": [
+        10,
+        15,
+        32
+      ],
+      "targets": [
+        7,
+        9,
+        19
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          32,
+          19
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 30,
+      "robots": 3,
+      "starts": [
+        8,
+        51,
+        12
+      ],
+      "targets": [
+        38,
+        58,
+        59
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          76,
+          58
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 31,
+      "robots": 3,
+      "starts": [
+        78,
+        3,
+        15
+      ],
+      "targets": [
+        75,
+        2,
+        1
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          63,
+          75
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 32,
+      "robots": 3,
+      "starts": [
+        74,
+        19,
+        37
+      ],
+      "targets": [
+        41,
+        49,
+        50
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          19,
+          32
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 33,
+      "robots": 3,
+      "starts": [
+        3,
+        47,
+        63
+      ],
+      "targets": [
+        53,
+        65,
+        9
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          63,
+          65
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 34,
+      "robots": 3,
+      "starts": [
+        21,
+        48,
+        55
+      ],
+      "targets": [
+        54,
+        79,
+        5
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          48,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 35,
+      "robots": 3,
+      "starts": [
+        31,
+        44,
+        11
+      ],
+      "targets": [
+        21,
+        56,
+        67
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          16,
+          15
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 36,
+      "robots": 3,
+      "starts": [
+        5,
+        21,
+        36
+      ],
+      "targets": [
+        31,
+        48,
+        4
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          14,
+          4
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 37,
+      "robots": 3,
+      "starts": [
+        9,
+        62,
+        65
+      ],
+      "targets": [
+        27,
+        74,
+        10
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          34,
+          23
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 38,
+      "robots": 3,
+      "starts": [
+        76,
+        32,
+        55
+      ],
+      "targets": [
+        68,
+        57,
+        59
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          76,
+          77
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 39,
+      "robots": 3,
+      "starts": [
+        76,
+        19,
+        22
+      ],
+      "targets": [
+        23,
+        42,
+        5
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          76,
+          77
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 40,
+      "robots": 3,
+      "starts": [
+        16,
+        44,
+        48
+      ],
+      "targets": [
+        9,
+        77,
+        15
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          48,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 41,
+      "robots": 3,
+      "starts": [
+        49,
+        30,
+        26
+      ],
+      "targets": [
+        70,
+        5,
+        81
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          15,
+          14
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 42,
+      "robots": 3,
+      "starts": [
+        37,
+        8,
+        70
+      ],
+      "targets": [
+        9,
+        0,
+        39
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          13,
+          0
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 43,
+      "robots": 3,
+      "starts": [
+        74,
+        57,
+        47
+      ],
+      "targets": [
+        29,
+        71,
+        44
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          47,
+          46
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 44,
+      "robots": 3,
+      "starts": [
+        28,
+        27,
+        12
+      ],
+      "targets": [
+        40,
+        29,
+        23
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          11,
+          9
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 45,
+      "robots": 3,
+      "starts": [
+        48,
+        40,
+        71
+      ],
+      "targets": [
+        44,
+        74,
+        33
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          71,
+          69
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 46,
+      "robots": 3,
+      "starts": [
+        12,
+        17,
+        46
+      ],
+      "targets": [
+        2,
+        31,
+        38
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          12,
+          13
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 47,
+      "robots": 3,
+      "starts": [
+        12,
+        54,
+        40
+      ],
+      "targets": [
+        24,
+        46,
+        0
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          22,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 48,
+      "robots": 3,
+      "starts": [
+        41,
+        81,
+        28
+      ],
+      "targets": [
+        53,
+        30,
+        4
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          41,
+          53
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 49,
+      "robots": 3,
+      "starts": [
+        26,
+        80,
+        10
+      ],
+      "targets": [
+        36,
+        39,
+        8
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          40,
+          37
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 50,
+      "robots": 3,
+      "starts": [
+        51,
+        75,
+        36
+      ],
+      "targets": [
+        41,
+        63,
+        6
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          36,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 51,
+      "robots": 3,
+      "starts": [
+        56,
+        71,
+        72
+      ],
+      "targets": [
+        70,
+        14,
+        60
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          15,
+          14
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 52,
+      "robots": 3,
+      "starts": [
+        1,
+        75,
+        44
+      ],
+      "targets": [
+        32,
+        26,
+        78
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          46,
+          47
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 53,
+      "robots": 3,
+      "starts": [
+        42,
+        47,
+        76
+      ],
+      "targets": [
+        52,
+        55,
+        67
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          76,
+          59
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 54,
+      "robots": 3,
+      "starts": [
+        62,
+        24,
+        18
+      ],
+      "targets": [
+        16,
+        42,
+        60
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          18,
+          20
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 55,
+      "robots": 3,
+      "starts": [
+        73,
+        22,
+        1
+      ],
+      "targets": [
+        18,
+        61,
+        60
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          22,
+          20
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 56,
+      "robots": 3,
+      "starts": [
+        67,
+        42,
+        78
+      ],
+      "targets": [
+        51,
+        26,
+        72
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          67,
+          78
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 57,
+      "robots": 3,
+      "starts": [
+        9,
+        65,
+        51
+      ],
+      "targets": [
+        40,
+        63,
+        77
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          9,
+          16
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 58,
+      "robots": 3,
+      "starts": [
+        40,
+        5,
+        80
+      ],
+      "targets": [
+        6,
+        0,
+        72
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          15,
+          6
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 59,
+      "robots": 3,
+      "starts": [
+        50,
+        44,
+        79
+      ],
+      "targets": [
+        27,
+        41,
+        45
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          76,
+          77
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 60,
+      "robots": 3,
+      "starts": [
+        78,
+        72,
+        18
+      ],
+      "targets": [
+        63,
+        21,
+        61
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          78,
+          77
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 61,
+      "robots": 3,
+      "starts": [
+        2,
+        19,
+        27
+      ],
+      "targets": [
+        24,
+        57,
+        81
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          34,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 62,
+      "robots": 3,
+      "starts": [
+        26,
+        79,
+        65
+      ],
+      "targets": [
+        9,
+        34,
+        54
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          22,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 63,
+      "robots": 3,
+      "starts": [
+        78,
+        60,
+        30
+      ],
+      "targets": [
+        6,
+        37,
+        36
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          15,
+          6
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 64,
+      "robots": 3,
+      "starts": [
+        79,
+        38,
+        58
+      ],
+      "targets": [
+        31,
+        15,
+        41
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          38,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 65,
+      "robots": 3,
+      "starts": [
+        54,
+        72,
+        38
+      ],
+      "targets": [
+        70,
+        29,
+        75
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          69,
+          70
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 66,
+      "robots": 3,
+      "starts": [
+        68,
+        10,
+        1
+      ],
+      "targets": [
+        2,
+        38,
+        81
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          40,
+          38
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 67,
+      "robots": 3,
+      "starts": [
+        20,
+        72,
+        69
+      ],
+      "targets": [
+        70,
+        9,
+        26
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          57,
+          77
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 68,
+      "robots": 3,
+      "starts": [
+        49,
+        4,
+        36
+      ],
+      "targets": [
+        60,
+        61,
+        20
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          77,
+          60
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 69,
+      "robots": 3,
+      "starts": [
+        2,
+        16,
+        67
+      ],
+      "targets": [
+        55,
+        76,
+        33
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          40,
+          48
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 70,
+      "robots": 3,
+      "starts": [
+        33,
+        37,
+        24
+      ],
+      "targets": [
+        67,
+        31,
+        60
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          33,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 71,
+      "robots": 3,
+      "starts": [
+        13,
+        2,
+        5
+      ],
+      "targets": [
+        4,
+        25,
+        41
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          13,
+          2
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 72,
+      "robots": 3,
+      "starts": [
+        46,
+        52,
+        75
+      ],
+      "targets": [
+        53,
+        11,
+        79
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          39,
+          53
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 73,
+      "robots": 3,
+      "starts": [
+        35,
+        42,
+        26
+      ],
+      "targets": [
+        5,
+        2,
+        70
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          35,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 74,
+      "robots": 3,
+      "starts": [
+        1,
+        0,
+        7
+      ],
+      "targets": [
+        57,
+        15,
+        69
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          7,
+          15
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 75,
+      "robots": 3,
+      "starts": [
+        6,
+        0,
+        42
+      ],
+      "targets": [
+        80,
+        33,
+        46
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          13,
+          15
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 76,
+      "robots": 3,
+      "starts": [
+        23,
+        43,
+        78
+      ],
+      "targets": [
+        16,
+        76,
+        25
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          34,
+          23
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 77,
+      "robots": 3,
+      "starts": [
+        60,
+        62,
+        16
+      ],
+      "targets": [
+        70,
+        65,
+        77
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          16,
+          15
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 78,
+      "robots": 3,
+      "starts": [
+        75,
+        77,
+        1
+      ],
+      "targets": [
+        13,
+        60,
+        6
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          77,
+          60
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 79,
+      "robots": 3,
+      "starts": [
+        51,
+        44,
+        25
+      ],
+      "targets": [
+        63,
+        0,
+        67
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          34,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 80,
+      "robots": 3,
+      "starts": [
+        43,
+        77,
+        10
+      ],
+      "targets": [
+        15,
+        21,
+        53
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          37,
+          39
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 81,
+      "robots": 3,
+      "starts": [
+        30,
+        5,
+        7
+      ],
+      "targets": [
+        35,
+        49,
+        56
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          14,
+          15
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 82,
+      "robots": 3,
+      "starts": [
+        15,
+        72,
+        26
+      ],
+      "targets": [
+        76,
+        1,
+        57
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          13,
+          1
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 83,
+      "robots": 3,
+      "starts": [
+        77,
+        65,
+        70
+      ],
+      "targets": [
+        50,
+        47,
+        39
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          37,
+          39
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 84,
+      "robots": 3,
+      "starts": [
+        67,
+        74,
+        36
+      ],
+      "targets": [
+        43,
+        45,
+        32
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          76,
+          77
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 85,
+      "robots": 3,
+      "starts": [
+        16,
+        30,
+        56
+      ],
+      "targets": [
+        25,
+        7,
+        51
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          16,
+          15
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 86,
+      "robots": 3,
+      "starts": [
+        75,
+        40,
+        61
+      ],
+      "targets": [
+        57,
+        39,
+        72
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          40,
+          37
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 87,
+      "robots": 3,
+      "starts": [
+        78,
+        2,
+        56
+      ],
+      "targets": [
+        49,
+        63,
+        27
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          26,
+          27
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 88,
+      "robots": 3,
+      "starts": [
+        39,
+        62,
+        35
+      ],
+      "targets": [
+        60,
+        73,
+        30
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          37,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 89,
+      "robots": 3,
+      "starts": [
+        23,
+        44,
+        68
+      ],
+      "targets": [
+        48,
+        53,
+        58
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          47,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 90,
+      "robots": 3,
+      "starts": [
+        64,
+        7,
+        6
+      ],
+      "targets": [
+        31,
+        19,
+        68
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          77,
+          57
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 91,
+      "robots": 3,
+      "starts": [
+        58,
+        62,
+        59
+      ],
+      "targets": [
+        38,
+        35,
+        29
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          59,
+          60
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 92,
+      "robots": 3,
+      "starts": [
+        13,
+        20,
+        63
+      ],
+      "targets": [
+        72,
+        41,
+        65
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          57,
+          69
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 93,
+      "robots": 3,
+      "starts": [
+        52,
+        3,
+        55
+      ],
+      "targets": [
+        39,
+        38,
+        12
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          40,
+          38
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 94,
+      "robots": 3,
+      "starts": [
+        54,
+        30,
+        34
+      ],
+      "targets": [
+        10,
+        65,
+        61
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          9,
+          10
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 95,
+      "robots": 3,
+      "starts": [
+        33,
+        28,
+        69
+      ],
+      "targets": [
+        6,
+        10,
+        4
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          34,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 96,
+      "robots": 3,
+      "starts": [
+        70,
+        5,
+        47
+      ],
+      "targets": [
+        10,
+        17,
+        11
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          22,
+          20
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 97,
+      "robots": 3,
+      "starts": [
+        60,
+        62,
+        29
+      ],
+      "targets": [
+        50,
+        35,
+        28
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          37,
+          39
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 98,
+      "robots": 3,
+      "starts": [
+        65,
+        32,
+        40
+      ],
+      "targets": [
+        0,
+        18,
+        77
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          19,
+          18
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 99,
+      "robots": 3,
+      "starts": [
+        5,
+        32,
+        63
+      ],
+      "targets": [
+        54,
+        38,
+        50
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          32,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 100,
+      "robots": 3,
+      "starts": [
+        34,
+        67,
+        60
+      ],
+      "targets": [
+        5,
+        41,
+        47
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          40,
+          38
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 101,
+      "robots": 3,
+      "starts": [
+        14,
+        63,
+        47
+      ],
+      "targets": [
+        48,
+        34,
+        5
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          65,
+          77
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 102,
+      "robots": 3,
+      "starts": [
+        19,
+        70,
+        23
+      ],
+      "targets": [
+        60,
+        27,
+        39
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          34,
+          23
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 103,
+      "robots": 3,
+      "starts": [
+        43,
+        76,
+        20
+      ],
+      "targets": [
+        48,
+        27,
+        17
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          34,
+          23
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 104,
+      "robots": 3,
+      "starts": [
+        39,
+        59,
+        79
+      ],
+      "targets": [
+        78,
+        0,
+        3
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          13,
+          0
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 105,
+      "robots": 3,
+      "starts": [
+        69,
+        71,
+        43
+      ],
+      "targets": [
+        36,
+        9,
+        6
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          39,
+          37
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 106,
+      "robots": 3,
+      "starts": [
+        55,
+        22,
+        11
+      ],
+      "targets": [
+        37,
+        59,
+        63
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          77,
+          65
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 107,
+      "robots": 3,
+      "starts": [
+        9,
+        74,
+        1
+      ],
+      "targets": [
+        59,
+        72,
+        37
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          9,
+          16
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 108,
+      "robots": 3,
+      "starts": [
+        72,
+        69,
+        40
+      ],
+      "targets": [
+        26,
+        23,
+        75
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          69,
+          57
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 109,
+      "robots": 3,
+      "starts": [
+        8,
+        43,
+        69
+      ],
+      "targets": [
+        66,
+        16,
+        13
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          78,
+          66
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 110,
+      "robots": 3,
+      "starts": [
+        60,
+        16,
+        78
+      ],
+      "targets": [
+        26,
+        34,
+        10
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          9,
+          10
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 111,
+      "robots": 3,
+      "starts": [
+        35,
+        28,
+        3
+      ],
+      "targets": [
+        1,
+        12,
+        20
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          3,
+          15
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 112,
+      "robots": 3,
+      "starts": [
+        41,
+        33,
+        39
+      ],
+      "targets": [
+        55,
+        40,
+        8
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          33,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 113,
+      "robots": 3,
+      "starts": [
+        45,
+        4,
+        43
+      ],
+      "targets": [
+        19,
+        54,
+        28
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          40,
+          37
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 114,
+      "robots": 3,
+      "starts": [
+        58,
+        71,
+        17
+      ],
+      "targets": [
+        16,
+        79,
+        39
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          57,
+          77
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 115,
+      "robots": 3,
+      "starts": [
+        17,
+        64,
+        24
+      ],
+      "targets": [
+        8,
+        50,
+        61
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          15,
+          16
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 116,
+      "robots": 3,
+      "starts": [
+        44,
+        54,
+        38
+      ],
+      "targets": [
+        14,
+        37,
+        2
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          15,
+          3
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 117,
+      "robots": 3,
+      "starts": [
+        64,
+        59,
+        77
+      ],
+      "targets": [
+        2,
+        65,
+        37
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          40,
+          37
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 118,
+      "robots": 3,
+      "starts": [
+        54,
+        5,
+        77
+      ],
+      "targets": [
+        80,
+        27,
+        60
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          14,
+          15
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 119,
+      "robots": 3,
+      "starts": [
+        81,
+        7,
+        53
+      ],
+      "targets": [
+        76,
+        67,
+        39
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          53,
+          39
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 120,
+      "robots": 3,
+      "starts": [
+        41,
+        50,
+        66
+      ],
+      "targets": [
+        13,
+        37,
+        79
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          39,
+          37
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 121,
+      "robots": 3,
+      "starts": [
+        21,
+        0,
+        33
+      ],
+      "targets": [
+        38,
+        68,
+        61
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          40,
+          38
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 122,
+      "robots": 3,
+      "starts": [
+        77,
+        46,
+        39
+      ],
+      "targets": [
+        24,
+        21,
+        8
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          39,
+          37
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 123,
+      "robots": 3,
+      "starts": [
+        55,
+        67,
+        39
+      ],
+      "targets": [
+        1,
+        2,
+        32
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          15,
+          13
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 124,
+      "robots": 3,
+      "starts": [
+        29,
+        43,
+        22
+      ],
+      "targets": [
+        38,
+        48,
+        30
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          55,
+          48
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 125,
+      "robots": 3,
+      "starts": [
+        15,
+        41,
+        42
+      ],
+      "targets": [
+        24,
+        1,
+        55
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          38,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 126,
+      "robots": 3,
+      "starts": [
+        51,
+        22,
+        41
+      ],
+      "targets": [
+        63,
+        37,
+        13
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          65,
+          63
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 127,
+      "robots": 3,
+      "starts": [
+        74,
+        44,
+        30
+      ],
+      "targets": [
+        53,
+        60,
+        80
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          74,
+          76
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 128,
+      "robots": 3,
+      "starts": [
+        6,
+        57,
+        60
+      ],
+      "targets": [
+        55,
+        33,
+        52
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          48,
+          55
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 129,
+      "robots": 3,
+      "starts": [
+        10,
+        29,
+        69
+      ],
+      "targets": [
+        39,
+        25,
+        5
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          57,
+          77
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 130,
+      "robots": 3,
+      "starts": [
+        10,
+        28,
+        11
+      ],
+      "targets": [
+        71,
+        56,
+        73
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          77,
+          73
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 131,
+      "robots": 3,
+      "starts": [
+        74,
+        70,
+        46
+      ],
+      "targets": [
+        19,
+        3,
+        1
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          47,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 132,
+      "robots": 3,
+      "starts": [
+        53,
+        1,
+        81
+      ],
+      "targets": [
+        68,
+        10,
+        13
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          53,
+          39
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 133,
+      "robots": 3,
+      "starts": [
+        23,
+        34,
+        37
+      ],
+      "targets": [
+        75,
+        3,
+        78
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          34,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 134,
+      "robots": 3,
+      "starts": [
+        11,
+        57,
+        38
+      ],
+      "targets": [
+        17,
+        25,
+        33
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          23,
+          25
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 135,
+      "robots": 3,
+      "starts": [
+        19,
+        23,
+        59
+      ],
+      "targets": [
+        64,
+        68,
+        46
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          32,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 136,
+      "robots": 3,
+      "starts": [
+        9,
+        24,
+        48
+      ],
+      "targets": [
+        60,
+        59,
+        75
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          77,
+          60
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 137,
+      "robots": 3,
+      "starts": [
+        55,
+        72,
+        41
+      ],
+      "targets": [
+        7,
+        68,
+        0
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          15,
+          13
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 138,
+      "robots": 3,
+      "starts": [
+        31,
+        49,
+        33
+      ],
+      "targets": [
+        29,
+        30,
+        81
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          31,
+          29
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 139,
+      "robots": 3,
+      "starts": [
+        6,
+        78,
+        42
+      ],
+      "targets": [
+        15,
+        65,
+        62
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          65,
+          63
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 140,
+      "robots": 3,
+      "starts": [
+        15,
+        39,
+        52
+      ],
+      "targets": [
+        59,
+        23,
+        69
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          60,
+          59
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 141,
+      "robots": 3,
+      "starts": [
+        71,
+        30,
+        69
+      ],
+      "targets": [
+        12,
+        10,
+        27
+      ],
+      "dynamic_step": 5,
+      "dynamic_closed_edges": [
+        [
+          71,
+          69
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 142,
+      "robots": 3,
+      "starts": [
+        24,
+        80,
+        48
+      ],
+      "targets": [
+        61,
+        46,
+        18
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          20,
+          18
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 143,
+      "robots": 3,
+      "starts": [
+        70,
+        41,
+        6
+      ],
+      "targets": [
+        29,
+        47,
+        59
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          77,
+          60
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 144,
+      "robots": 3,
+      "starts": [
+        44,
+        52,
+        67
+      ],
+      "targets": [
+        66,
+        5,
+        20
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          22,
+          20
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 145,
+      "robots": 3,
+      "starts": [
+        72,
+        14,
+        49
+      ],
+      "targets": [
+        67,
+        5,
+        68
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          72,
+          67
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 146,
+      "robots": 3,
+      "starts": [
+        0,
+        7,
+        43
+      ],
+      "targets": [
+        56,
+        5,
+        42
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          43,
+          38
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 147,
+      "robots": 3,
+      "starts": [
+        25,
+        77,
+        44
+      ],
+      "targets": [
+        23,
+        78,
+        53
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          77,
+          78
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 148,
+      "robots": 3,
+      "starts": [
+        20,
+        69,
+        80
+      ],
+      "targets": [
+        71,
+        28,
+        43
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          22,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 149,
+      "robots": 3,
+      "starts": [
+        55,
+        35,
+        50
+      ],
+      "targets": [
+        77,
+        67,
+        14
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          35,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 150,
+      "robots": 3,
+      "starts": [
+        57,
+        14,
+        20
+      ],
+      "targets": [
+        45,
+        17,
+        23
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          20,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 151,
+      "robots": 3,
+      "starts": [
+        5,
+        45,
+        53
+      ],
+      "targets": [
+        30,
+        76,
+        13
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          22,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 152,
+      "robots": 3,
+      "starts": [
+        56,
+        44,
+        34
+      ],
+      "targets": [
+        4,
+        38,
+        81
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          34,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 153,
+      "robots": 3,
+      "starts": [
+        27,
+        24,
+        3
+      ],
+      "targets": [
+        78,
+        71,
+        34
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          69,
+          71
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 154,
+      "robots": 3,
+      "starts": [
+        43,
+        51,
+        30
+      ],
+      "targets": [
+        3,
+        6,
+        34
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          31,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 155,
+      "robots": 3,
+      "starts": [
+        74,
+        81,
+        80
+      ],
+      "targets": [
+        27,
+        14,
+        24
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          76,
+          77
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 156,
+      "robots": 3,
+      "starts": [
+        53,
+        58,
+        20
+      ],
+      "targets": [
+        81,
+        64,
+        51
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          39,
+          37
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 157,
+      "robots": 3,
+      "starts": [
+        62,
+        14,
+        33
+      ],
+      "targets": [
+        32,
+        77,
+        65
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          33,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 158,
+      "robots": 3,
+      "starts": [
+        48,
+        32,
+        33
+      ],
+      "targets": [
+        79,
+        41,
+        12
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          77,
+          76
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 159,
+      "robots": 3,
+      "starts": [
+        67,
+        18,
+        43
+      ],
+      "targets": [
+        55,
+        34,
+        7
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          37,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 160,
+      "robots": 3,
+      "starts": [
+        59,
+        31,
+        81
+      ],
+      "targets": [
+        11,
+        48,
+        57
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          16,
+          9
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 161,
+      "robots": 3,
+      "starts": [
+        26,
+        55,
+        20
+      ],
+      "targets": [
+        8,
+        36,
+        2
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          20,
+          22
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 162,
+      "robots": 3,
+      "starts": [
+        28,
+        18,
+        51
+      ],
+      "targets": [
+        21,
+        16,
+        10
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          31,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 163,
+      "robots": 3,
+      "starts": [
+        22,
+        25,
+        62
+      ],
+      "targets": [
+        17,
+        37,
+        20
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          63,
+          65
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 164,
+      "robots": 3,
+      "starts": [
+        81,
+        62,
+        71
+      ],
+      "targets": [
+        23,
+        8,
+        17
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          22,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 165,
+      "robots": 3,
+      "starts": [
+        35,
+        44,
+        13
+      ],
+      "targets": [
+        77,
+        47,
+        37
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          40,
+          37
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 166,
+      "robots": 3,
+      "starts": [
+        56,
+        68,
+        23
+      ],
+      "targets": [
+        8,
+        66,
+        2
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          3,
+          2
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 167,
+      "robots": 3,
+      "starts": [
+        4,
+        55,
+        62
+      ],
+      "targets": [
+        72,
+        57,
+        14
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          77,
+          57
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 168,
+      "robots": 3,
+      "starts": [
+        52,
+        46,
+        58
+      ],
+      "targets": [
+        63,
+        31,
+        80
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          22,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 169,
+      "robots": 3,
+      "starts": [
+        11,
+        21,
+        32
+      ],
+      "targets": [
+        3,
+        44,
+        26
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          2,
+          3
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 170,
+      "robots": 3,
+      "starts": [
+        51,
+        29,
+        60
+      ],
+      "targets": [
+        58,
+        70,
+        81
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          60,
+          77
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 171,
+      "robots": 3,
+      "starts": [
+        57,
+        79,
+        7
+      ],
+      "targets": [
+        53,
+        67,
+        66
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          40,
+          37
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 172,
+      "robots": 3,
+      "starts": [
+        75,
+        27,
+        81
+      ],
+      "targets": [
+        11,
+        15,
+        20
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          63,
+          65
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 173,
+      "robots": 3,
+      "starts": [
+        64,
+        61,
+        51
+      ],
+      "targets": [
+        40,
+        78,
+        9
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          64,
+          65
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 174,
+      "robots": 3,
+      "starts": [
+        78,
+        42,
+        36
+      ],
+      "targets": [
+        14,
+        51,
+        31
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          48,
+          52
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 175,
+      "robots": 3,
+      "starts": [
+        17,
+        78,
+        58
+      ],
+      "targets": [
+        77,
+        38,
+        8
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          40,
+          38
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 176,
+      "robots": 3,
+      "starts": [
+        74,
+        28,
+        24
+      ],
+      "targets": [
+        8,
+        54,
+        76
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          37,
+          54
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 177,
+      "robots": 3,
+      "starts": [
+        43,
+        77,
+        45
+      ],
+      "targets": [
+        49,
+        28,
+        46
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          40,
+          35
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 178,
+      "robots": 3,
+      "starts": [
+        41,
+        36,
+        78
+      ],
+      "targets": [
+        79,
+        76,
+        48
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          36,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 179,
+      "robots": 3,
+      "starts": [
+        21,
+        24,
+        4
+      ],
+      "targets": [
+        16,
+        28,
+        49
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          24,
+          26
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 180,
+      "robots": 3,
+      "starts": [
+        45,
+        80,
+        13
+      ],
+      "targets": [
+        1,
+        37,
+        61
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          46,
+          47
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 181,
+      "robots": 3,
+      "starts": [
+        16,
+        60,
+        31
+      ],
+      "targets": [
+        14,
+        46,
+        74
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          16,
+          15
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 182,
+      "robots": 3,
+      "starts": [
+        12,
+        40,
+        68
+      ],
+      "targets": [
+        81,
+        28,
+        20
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          57,
+          77
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 183,
+      "robots": 3,
+      "starts": [
+        50,
+        69,
+        47
+      ],
+      "targets": [
+        25,
+        45,
+        44
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          34,
+          23
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 184,
+      "robots": 3,
+      "starts": [
+        29,
+        6,
+        30
+      ],
+      "targets": [
+        41,
+        53,
+        12
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          31,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 185,
+      "robots": 3,
+      "starts": [
+        42,
+        54,
+        0
+      ],
+      "targets": [
+        56,
+        23,
+        34
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          22,
+          34
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 186,
+      "robots": 3,
+      "starts": [
+        56,
+        45,
+        37
+      ],
+      "targets": [
+        24,
+        10,
+        13
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          37,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 187,
+      "robots": 3,
+      "starts": [
+        7,
+        25,
+        3
+      ],
+      "targets": [
+        17,
+        47,
+        16
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          20,
+          17
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 188,
+      "robots": 3,
+      "starts": [
+        18,
+        4,
+        41
+      ],
+      "targets": [
+        81,
+        5,
+        73
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          18,
+          20
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 189,
+      "robots": 3,
+      "starts": [
+        13,
+        11,
+        27
+      ],
+      "targets": [
+        51,
+        64,
+        49
+      ],
+      "dynamic_step": 4,
+      "dynamic_closed_edges": [
+        [
+          77,
+          65
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 190,
+      "robots": 3,
+      "starts": [
+        7,
+        70,
+        8
+      ],
+      "targets": [
+        73,
+        2,
+        4
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          15,
+          14
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 191,
+      "robots": 3,
+      "starts": [
+        38,
+        34,
+        40
+      ],
+      "targets": [
+        25,
+        56,
+        26
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          23,
+          26
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 192,
+      "robots": 3,
+      "starts": [
+        44,
+        36,
+        48
+      ],
+      "targets": [
+        45,
+        72,
+        75
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          69,
+          71
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 193,
+      "robots": 3,
+      "starts": [
+        76,
+        59,
+        25
+      ],
+      "targets": [
+        13,
+        56,
+        33
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          15,
+          13
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 194,
+      "robots": 3,
+      "starts": [
+        71,
+        20,
+        21
+      ],
+      "targets": [
+        26,
+        65,
+        10
+      ],
+      "dynamic_step": 3,
+      "dynamic_closed_edges": [
+        [
+          9,
+          10
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 195,
+      "robots": 3,
+      "starts": [
+        54,
+        46,
+        50
+      ],
+      "targets": [
+        76,
+        34,
+        66
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          54,
+          37
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 196,
+      "robots": 3,
+      "starts": [
+        0,
+        47,
+        63
+      ],
+      "targets": [
+        32,
+        31,
+        11
+      ],
+      "dynamic_step": 2,
+      "dynamic_closed_edges": [
+        [
+          47,
+          40
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 197,
+      "robots": 3,
+      "starts": [
+        8,
+        16,
+        11
+      ],
+      "targets": [
+        52,
+        15,
+        13
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          11,
+          13
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 198,
+      "robots": 3,
+      "starts": [
+        38,
+        76,
+        68
+      ],
+      "targets": [
+        20,
+        53,
+        60
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          68,
+          61
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    },
+    {
+      "scenario_id": 199,
+      "robots": 3,
+      "starts": [
+        53,
+        64,
+        29
+      ],
+      "targets": [
+        43,
+        71,
+        72
+      ],
+      "dynamic_step": 1,
+      "dynamic_closed_edges": [
+        [
+          53,
+          43
+        ]
+      ],
+      "disruption_kind": "edge_closure"
+    }
+  ],
+  "paired_static_seed": 33003
+}

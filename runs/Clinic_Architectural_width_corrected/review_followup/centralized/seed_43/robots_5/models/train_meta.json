@@ -1,0 +1,22 @@
+{
+  "architecture": "centralized",
+  "algorithm": "qlearning",
+  "graph_path": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Clinic_Architectural_width_corrected\\data\\processed\\graph.gpickle",
+  "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc",
+  "n_robots": 5,
+  "episodes": 1000,
+  "total_trajectories": 5000,
+  "total_transitions": 235722,
+  "elapsed_seconds": 89.31644140000026,
+  "max_steps": 200,
+  "seed": 43,
+  "hyperparameters": {
+    "alpha": 0.1,
+    "gamma": 0.99,
+    "epsilon_start": 1.0,
+    "epsilon_min": 0.05,
+    "epsilon_decay": 0.995
+  },
+  "model_path": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_43\\robots_5\\models\\global_qtable.pkl",
+  "history_path": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_43\\robots_5\\training.csv"
+}

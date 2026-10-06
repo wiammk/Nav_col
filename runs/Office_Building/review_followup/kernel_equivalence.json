@@ -1,0 +1,29 @@
+[
+  {
+    "seed": 18001,
+    "max_parameter_difference": 1.4901161193847656e-08,
+    "absolute_tolerance": 2e-06,
+    "passed": true,
+    "scalar_seconds": 0.10914719998254441,
+    "batched_seconds": 0.011738900007912889,
+    "speedup": 9.297906951159913
+  },
+  {
+    "seed": 18002,
+    "max_parameter_difference": 1.0170042514801025e-06,
+    "absolute_tolerance": 2e-06,
+    "passed": true,
+    "scalar_seconds": 0.09764930000528693,
+    "batched_seconds": 0.010247099999105558,
+    "speedup": 9.529457116043611
+  },
+  {
+    "seed": 18003,
+    "max_parameter_difference": 1.1175870895385742e-07,
+    "absolute_tolerance": 2e-06,
+    "passed": true,
+    "scalar_seconds": 0.08965069998521358,
+    "batched_seconds": 0.009095100016565993,
+    "speedup": 9.857032888249941
+  }
+]

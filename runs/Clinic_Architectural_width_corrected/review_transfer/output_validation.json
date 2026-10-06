@@ -1,0 +1,92 @@
+{
+  "checked_at_utc": "2026-10-06T00:55:58.119795+00:00",
+  "completed_runs": 20,
+  "expected_runs": 20,
+  "complete": true,
+  "aggregate_cells": 14,
+  "detailed_rows_checked": 28000,
+  "reference_distances_checked_independently": true,
+  "passed": true,
+  "runs": [
+    {
+      "algorithm": "dqn",
+      "seed": 42
+    },
+    {
+      "algorithm": "dqn",
+      "seed": 43
+    },
+    {
+      "algorithm": "dqn",
+      "seed": 44
+    },
+    {
+      "algorithm": "dqn",
+      "seed": 45
+    },
+    {
+      "algorithm": "dqn",
+      "seed": 46
+    },
+    {
+      "algorithm": "dqn",
+      "seed": 47
+    },
+    {
+      "algorithm": "dqn",
+      "seed": 48
+    },
+    {
+      "algorithm": "dqn",
+      "seed": 49
+    },
+    {
+      "algorithm": "dqn",
+      "seed": 50
+    },
+    {
+      "algorithm": "dqn",
+      "seed": 51
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 42
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 43
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 44
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 45
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 46
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 47
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 48
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 49
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 50
+    },
+    {
+      "algorithm": "ppo",
+      "seed": 51
+    }
+  ]
+}

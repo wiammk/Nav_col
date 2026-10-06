@@ -1,0 +1,166 @@
+{
+  "phase": "neural_dqn",
+  "seconds": 16471.3211479187,
+  "results": [
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_42\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_42\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_43\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_43\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_42\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_42\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_44\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_44\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_43\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_43\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_45\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_45\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_44\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_44\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_46\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_46\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_45\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_45\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_47\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_47\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_46\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_46\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_48\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_48\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_47\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_47\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_49\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_49\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_48\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_48\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_50\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_50\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_49\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_49\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_51\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_51\\robots_1",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_50\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_50\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_51\\robots_3",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_51\\robots_3",
+      "returncode": 0
+    }
+  ]
+}

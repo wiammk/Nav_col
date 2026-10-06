@@ -1,0 +1,2526 @@
+{
+  "checked_at_utc": "2026-10-06T00:57:26.867831+00:00",
+  "completed_runs": 246,
+  "detailed_rows_checked": 496000,
+  "aggregate_rows_checked": 74,
+  "holm_tests_checked": 112,
+  "families": [
+    {
+      "family": "post_review_prioritized_planning",
+      "present": 16,
+      "expected": 16,
+      "complete": true
+    },
+    {
+      "family": "post_review_clinic_fedavg_vs_local",
+      "present": 12,
+      "expected": 12,
+      "complete": true
+    },
+    {
+      "family": "post_review_clinic_fedavg_vs_centralized",
+      "present": 12,
+      "expected": 12,
+      "complete": true
+    },
+    {
+      "family": "post_review_spatial_fedavg_vs_local",
+      "present": 4,
+      "expected": 4,
+      "complete": true
+    },
+    {
+      "family": "post_review_spatial_matched_fedavg_vs_local",
+      "present": 4,
+      "expected": 4,
+      "complete": true
+    },
+    {
+      "family": "post_review_dqn_representation",
+      "present": 16,
+      "expected": 16,
+      "complete": true
+    },
+    {
+      "family": "post_review_dqn_longer_budget",
+      "present": 16,
+      "expected": 16,
+      "complete": true
+    },
+    {
+      "family": "post_review_ppo_representation",
+      "present": 16,
+      "expected": 16,
+      "complete": true
+    },
+    {
+      "family": "post_review_ppo_longer_budget",
+      "present": 16,
+      "expected": 16,
+      "complete": true
+    }
+  ],
+  "runs": [
+    {
+      "folder": "runs\\Office_Building\\review_followup\\pilot\\dqn\\lr_0.0001",
+      "seed": 11001,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 1000,
+      "rows_checked": 0,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\pilot\\dqn\\lr_0.0003",
+      "seed": 11001,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 1000,
+      "rows_checked": 0,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\pilot\\dqn\\lr_0.001",
+      "seed": 11001,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 1000,
+      "rows_checked": 0,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\pilot\\ppo\\lr_0.0001",
+      "seed": 11001,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 1000,
+      "rows_checked": 0,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\pilot\\ppo\\lr_0.0003",
+      "seed": 11001,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 1000,
+      "rows_checked": 0,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\pilot\\ppo\\lr_0.001",
+      "seed": 11001,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 1000,
+      "rows_checked": 0,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_42\\robots_1",
+      "seed": 42,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_42\\robots_3",
+      "seed": 42,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_43\\robots_1",
+      "seed": 43,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_43\\robots_3",
+      "seed": 43,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_44\\robots_1",
+      "seed": 44,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_44\\robots_3",
+      "seed": 44,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_45\\robots_1",
+      "seed": 45,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_45\\robots_3",
+      "seed": 45,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_46\\robots_1",
+      "seed": 46,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_46\\robots_3",
+      "seed": 46,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_47\\robots_1",
+      "seed": 47,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_47\\robots_3",
+      "seed": 47,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_48\\robots_1",
+      "seed": 48,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_48\\robots_3",
+      "seed": 48,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_49\\robots_1",
+      "seed": 49,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_49\\robots_3",
+      "seed": 49,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_50\\robots_1",
+      "seed": 50,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_50\\robots_3",
+      "seed": 50,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_51\\robots_1",
+      "seed": 51,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\gcn\\seed_51\\robots_3",
+      "seed": 51,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_42\\robots_1",
+      "seed": 42,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_42\\robots_3",
+      "seed": 42,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_43\\robots_1",
+      "seed": 43,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_43\\robots_3",
+      "seed": 43,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_44\\robots_1",
+      "seed": 44,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_44\\robots_3",
+      "seed": 44,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_45\\robots_1",
+      "seed": 45,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_45\\robots_3",
+      "seed": 45,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_46\\robots_1",
+      "seed": 46,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_46\\robots_3",
+      "seed": 46,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_47\\robots_1",
+      "seed": 47,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_47\\robots_3",
+      "seed": 47,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_48\\robots_1",
+      "seed": 48,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_48\\robots_3",
+      "seed": 48,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_49\\robots_1",
+      "seed": 49,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_49\\robots_3",
+      "seed": 49,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_50\\robots_1",
+      "seed": 50,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_50\\robots_3",
+      "seed": 50,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_51\\robots_1",
+      "seed": 51,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\dqn\\raw\\seed_51\\robots_3",
+      "seed": 51,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "dqn",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_42\\robots_1",
+      "seed": 42,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_42\\robots_3",
+      "seed": 42,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_43\\robots_1",
+      "seed": 43,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_43\\robots_3",
+      "seed": 43,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_44\\robots_1",
+      "seed": 44,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_44\\robots_3",
+      "seed": 44,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_45\\robots_1",
+      "seed": 45,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_45\\robots_3",
+      "seed": 45,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_46\\robots_1",
+      "seed": 46,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_46\\robots_3",
+      "seed": 46,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_47\\robots_1",
+      "seed": 47,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_47\\robots_3",
+      "seed": 47,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_48\\robots_1",
+      "seed": 48,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_48\\robots_3",
+      "seed": 48,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_49\\robots_1",
+      "seed": 49,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_49\\robots_3",
+      "seed": 49,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_50\\robots_1",
+      "seed": 50,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_50\\robots_3",
+      "seed": 50,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_51\\robots_1",
+      "seed": 51,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\gcn\\seed_51\\robots_3",
+      "seed": 51,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_42\\robots_1",
+      "seed": 42,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_42\\robots_3",
+      "seed": 42,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_43\\robots_1",
+      "seed": 43,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_43\\robots_3",
+      "seed": 43,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_44\\robots_1",
+      "seed": 44,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_44\\robots_3",
+      "seed": 44,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_45\\robots_1",
+      "seed": 45,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_45\\robots_3",
+      "seed": 45,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_46\\robots_1",
+      "seed": 46,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_46\\robots_3",
+      "seed": 46,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_47\\robots_1",
+      "seed": 47,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_47\\robots_3",
+      "seed": 47,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_48\\robots_1",
+      "seed": 48,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_48\\robots_3",
+      "seed": 48,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_49\\robots_1",
+      "seed": 49,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_49\\robots_3",
+      "seed": 49,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_50\\robots_1",
+      "seed": 50,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_50\\robots_3",
+      "seed": 50,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_51\\robots_1",
+      "seed": 51,
+      "robots": 1,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 800,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\neural\\ppo\\raw\\seed_51\\robots_3",
+      "seed": 51,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "ppo",
+      "budget": 2000,
+      "rows_checked": 2400,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\fedavg\\seed_42\\robots_5",
+      "seed": 42,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\fedavg\\seed_43\\robots_5",
+      "seed": 43,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\fedavg\\seed_44\\robots_5",
+      "seed": 44,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\fedavg\\seed_45\\robots_5",
+      "seed": 45,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\fedavg\\seed_46\\robots_5",
+      "seed": 46,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\fedavg\\seed_47\\robots_5",
+      "seed": 47,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\fedavg\\seed_48\\robots_5",
+      "seed": 48,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\fedavg\\seed_49\\robots_5",
+      "seed": 49,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\fedavg\\seed_50\\robots_5",
+      "seed": 50,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\fedavg\\seed_51\\robots_5",
+      "seed": 51,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\local\\seed_42\\robots_5",
+      "seed": 42,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\local\\seed_43\\robots_5",
+      "seed": 43,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\local\\seed_44\\robots_5",
+      "seed": 44,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\local\\seed_45\\robots_5",
+      "seed": 45,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\local\\seed_46\\robots_5",
+      "seed": 46,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\local\\seed_47\\robots_5",
+      "seed": 47,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\local\\seed_48\\robots_5",
+      "seed": 48,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\local\\seed_49\\robots_5",
+      "seed": 49,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\local\\seed_50\\robots_5",
+      "seed": 50,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial\\local\\seed_51\\robots_5",
+      "seed": 51,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_42\\robots_10",
+      "seed": 42,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_42\\robots_3",
+      "seed": 42,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_42\\robots_5",
+      "seed": 42,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_43\\robots_10",
+      "seed": 43,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_43\\robots_3",
+      "seed": 43,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_43\\robots_5",
+      "seed": 43,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_44\\robots_10",
+      "seed": 44,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_44\\robots_3",
+      "seed": 44,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_44\\robots_5",
+      "seed": 44,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_45\\robots_10",
+      "seed": 45,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_45\\robots_3",
+      "seed": 45,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_45\\robots_5",
+      "seed": 45,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_46\\robots_10",
+      "seed": 46,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_46\\robots_3",
+      "seed": 46,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_46\\robots_5",
+      "seed": 46,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_47\\robots_10",
+      "seed": 47,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_47\\robots_3",
+      "seed": 47,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_47\\robots_5",
+      "seed": 47,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_48\\robots_10",
+      "seed": 48,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_48\\robots_3",
+      "seed": 48,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_48\\robots_5",
+      "seed": 48,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_49\\robots_10",
+      "seed": 49,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_49\\robots_3",
+      "seed": 49,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_49\\robots_5",
+      "seed": 49,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_50\\robots_10",
+      "seed": 50,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_50\\robots_3",
+      "seed": 50,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_50\\robots_5",
+      "seed": 50,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_51\\robots_10",
+      "seed": 51,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_51\\robots_3",
+      "seed": 51,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\hotspots\\seed_51\\robots_5",
+      "seed": 51,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_42\\robots_10",
+      "seed": 42,
+      "robots": 10,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_42\\robots_3",
+      "seed": 42,
+      "robots": 3,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_42\\robots_5",
+      "seed": 42,
+      "robots": 5,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_43\\robots_10",
+      "seed": 43,
+      "robots": 10,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_43\\robots_3",
+      "seed": 43,
+      "robots": 3,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_43\\robots_5",
+      "seed": 43,
+      "robots": 5,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_44\\robots_10",
+      "seed": 44,
+      "robots": 10,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_44\\robots_3",
+      "seed": 44,
+      "robots": 3,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_44\\robots_5",
+      "seed": 44,
+      "robots": 5,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_45\\robots_10",
+      "seed": 45,
+      "robots": 10,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_45\\robots_3",
+      "seed": 45,
+      "robots": 3,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_45\\robots_5",
+      "seed": 45,
+      "robots": 5,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_46\\robots_10",
+      "seed": 46,
+      "robots": 10,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_46\\robots_3",
+      "seed": 46,
+      "robots": 3,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_46\\robots_5",
+      "seed": 46,
+      "robots": 5,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_47\\robots_10",
+      "seed": 47,
+      "robots": 10,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_47\\robots_3",
+      "seed": 47,
+      "robots": 3,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_47\\robots_5",
+      "seed": 47,
+      "robots": 5,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_48\\robots_10",
+      "seed": 48,
+      "robots": 10,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_48\\robots_3",
+      "seed": 48,
+      "robots": 3,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_48\\robots_5",
+      "seed": 48,
+      "robots": 5,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_49\\robots_10",
+      "seed": 49,
+      "robots": 10,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_49\\robots_3",
+      "seed": 49,
+      "robots": 3,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_49\\robots_5",
+      "seed": 49,
+      "robots": 5,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_50\\robots_10",
+      "seed": 50,
+      "robots": 10,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_50\\robots_3",
+      "seed": 50,
+      "robots": 3,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_50\\robots_5",
+      "seed": 50,
+      "robots": 5,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_51\\robots_10",
+      "seed": 51,
+      "robots": 10,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_51\\robots_3",
+      "seed": 51,
+      "robots": 3,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\centralized\\seed_51\\robots_5",
+      "seed": 51,
+      "robots": 5,
+      "architecture": "centralized",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_42\\robots_10",
+      "seed": 42,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_42\\robots_3",
+      "seed": 42,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_42\\robots_5",
+      "seed": 42,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_43\\robots_10",
+      "seed": 43,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_43\\robots_3",
+      "seed": 43,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_43\\robots_5",
+      "seed": 43,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_44\\robots_10",
+      "seed": 44,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_44\\robots_3",
+      "seed": 44,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_44\\robots_5",
+      "seed": 44,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_45\\robots_10",
+      "seed": 45,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_45\\robots_3",
+      "seed": 45,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_45\\robots_5",
+      "seed": 45,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_46\\robots_10",
+      "seed": 46,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_46\\robots_3",
+      "seed": 46,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_46\\robots_5",
+      "seed": 46,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_47\\robots_10",
+      "seed": 47,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_47\\robots_3",
+      "seed": 47,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_47\\robots_5",
+      "seed": 47,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_48\\robots_10",
+      "seed": 48,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_48\\robots_3",
+      "seed": 48,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_48\\robots_5",
+      "seed": 48,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_49\\robots_10",
+      "seed": 49,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_49\\robots_3",
+      "seed": 49,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_49\\robots_5",
+      "seed": 49,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_50\\robots_10",
+      "seed": 50,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_50\\robots_3",
+      "seed": 50,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_50\\robots_5",
+      "seed": 50,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_51\\robots_10",
+      "seed": 51,
+      "robots": 10,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_51\\robots_3",
+      "seed": 51,
+      "robots": 3,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\fedavg\\seed_51\\robots_5",
+      "seed": 51,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_42\\robots_10",
+      "seed": 42,
+      "robots": 10,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_42\\robots_3",
+      "seed": 42,
+      "robots": 3,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_42\\robots_5",
+      "seed": 42,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_43\\robots_10",
+      "seed": 43,
+      "robots": 10,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_43\\robots_3",
+      "seed": 43,
+      "robots": 3,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_43\\robots_5",
+      "seed": 43,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_44\\robots_10",
+      "seed": 44,
+      "robots": 10,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_44\\robots_3",
+      "seed": 44,
+      "robots": 3,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_44\\robots_5",
+      "seed": 44,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_45\\robots_10",
+      "seed": 45,
+      "robots": 10,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_45\\robots_3",
+      "seed": 45,
+      "robots": 3,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_45\\robots_5",
+      "seed": 45,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_46\\robots_10",
+      "seed": 46,
+      "robots": 10,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_46\\robots_3",
+      "seed": 46,
+      "robots": 3,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_46\\robots_5",
+      "seed": 46,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_47\\robots_10",
+      "seed": 47,
+      "robots": 10,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_47\\robots_3",
+      "seed": 47,
+      "robots": 3,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_47\\robots_5",
+      "seed": 47,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_48\\robots_10",
+      "seed": 48,
+      "robots": 10,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_48\\robots_3",
+      "seed": 48,
+      "robots": 3,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_48\\robots_5",
+      "seed": 48,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_49\\robots_10",
+      "seed": 49,
+      "robots": 10,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_49\\robots_3",
+      "seed": 49,
+      "robots": 3,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_49\\robots_5",
+      "seed": 49,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_50\\robots_10",
+      "seed": 50,
+      "robots": 10,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_50\\robots_3",
+      "seed": 50,
+      "robots": 3,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_50\\robots_5",
+      "seed": 50,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_51\\robots_10",
+      "seed": 51,
+      "robots": 10,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 4000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_51\\robots_3",
+      "seed": 51,
+      "robots": 3,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 1200,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_51\\robots_5",
+      "seed": 51,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\local\\seed_42\\robots_5",
+      "seed": 42,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\local\\seed_43\\robots_5",
+      "seed": 43,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\local\\seed_44\\robots_5",
+      "seed": 44,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\local\\seed_45\\robots_5",
+      "seed": 45,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\local\\seed_46\\robots_5",
+      "seed": 46,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\local\\seed_47\\robots_5",
+      "seed": 47,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\local\\seed_48\\robots_5",
+      "seed": 48,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\local\\seed_49\\robots_5",
+      "seed": 49,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\local\\seed_50\\robots_5",
+      "seed": 50,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\local\\seed_51\\robots_5",
+      "seed": 51,
+      "robots": 5,
+      "architecture": "local",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\fedavg\\seed_42\\robots_5",
+      "seed": 42,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\fedavg\\seed_43\\robots_5",
+      "seed": 43,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\fedavg\\seed_44\\robots_5",
+      "seed": 44,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\fedavg\\seed_45\\robots_5",
+      "seed": 45,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\fedavg\\seed_46\\robots_5",
+      "seed": 46,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\fedavg\\seed_47\\robots_5",
+      "seed": 47,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\fedavg\\seed_48\\robots_5",
+      "seed": 48,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\fedavg\\seed_49\\robots_5",
+      "seed": 49,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\fedavg\\seed_50\\robots_5",
+      "seed": 50,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    },
+    {
+      "folder": "runs\\Office_Building\\review_followup\\spatial_matched\\fedavg\\seed_51\\robots_5",
+      "seed": 51,
+      "robots": 5,
+      "architecture": "fedavg",
+      "algorithm": "qlearning",
+      "budget": 1000,
+      "rows_checked": 2000,
+      "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339"
+    }
+  ],
+  "passed": true
+}

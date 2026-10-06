@@ -1,0 +1,22 @@
+{
+  "architecture": "centralized",
+  "algorithm": "qlearning",
+  "graph_path": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\data\\processed\\graph.gpickle",
+  "graph_fingerprint": "bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339",
+  "n_robots": 10,
+  "episodes": 200,
+  "total_trajectories": 10000,
+  "total_transitions": 635528,
+  "elapsed_seconds": 29.071518100099638,
+  "max_steps": 200,
+  "seed": 48,
+  "hyperparameters": {
+    "alpha": 0.1,
+    "gamma": 0.99,
+    "epsilon_start": 1.0,
+    "epsilon_min": 0.05,
+    "epsilon_decay": 0.995
+  },
+  "model_path": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\experiments\\seed_48\\robots_10\\centralized\\qlearning\\global_qtable.pkl",
+  "history_path": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\experiments\\seed_48\\robots_10\\centralized\\qlearning\\history.csv"
+}

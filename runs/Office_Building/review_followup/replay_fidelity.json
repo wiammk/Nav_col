@@ -1,0 +1,16 @@
+[
+  {
+    "regime": "static",
+    "old_rows": 2000,
+    "new_rows": 2000,
+    "differences": 0,
+    "examples": []
+  },
+  {
+    "regime": "dynamic_edge_closure",
+    "old_rows": 2000,
+    "new_rows": 2000,
+    "differences": 0,
+    "examples": []
+  }
+]

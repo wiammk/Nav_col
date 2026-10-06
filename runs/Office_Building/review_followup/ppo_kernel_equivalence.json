@@ -1,0 +1,41 @@
+[
+  {
+    "seed": 18001,
+    "max_parameter_difference_after_ten_updates": 0.00018069901852868497,
+    "max_log_probability_difference": 1.1920928955078125e-07,
+    "max_value_difference": 2.3283064365386963e-09,
+    "max_reported_loss_entropy_kl_difference": 3.5762786865234375e-07,
+    "numerical_not_bitwise_equivalence": true,
+    "same_update_count": true,
+    "passed": true,
+    "scalar_seconds": 6.92829320000601,
+    "batched_seconds": 0.4654982000065502,
+    "speedup": 14.883609001943551
+  },
+  {
+    "seed": 18002,
+    "max_parameter_difference_after_ten_updates": 3.334204666316509e-05,
+    "max_log_probability_difference": 1.1920928955078125e-07,
+    "max_value_difference": 2.7939677238464355e-09,
+    "max_reported_loss_entropy_kl_difference": 3.725290298461914e-08,
+    "numerical_not_bitwise_equivalence": true,
+    "same_update_count": true,
+    "passed": true,
+    "scalar_seconds": 6.556377800006885,
+    "batched_seconds": 0.5121747000084724,
+    "speedup": 12.801057529585957
+  },
+  {
+    "seed": 18003,
+    "max_parameter_difference_after_ten_updates": 5.408078141044825e-05,
+    "max_log_probability_difference": 2.384185791015625e-07,
+    "max_value_difference": 3.259629011154175e-09,
+    "max_reported_loss_entropy_kl_difference": 2.384185791015625e-07,
+    "numerical_not_bitwise_equivalence": true,
+    "same_update_count": true,
+    "passed": true,
+    "scalar_seconds": 4.680625400011195,
+    "batched_seconds": 0.2804302999866195,
+    "speedup": 16.690868997517484
+  }
+]

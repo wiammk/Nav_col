@@ -1,0 +1,6046 @@
+{
+  "clinic": {
+    "unit_scale": 1,
+    "doors": [
+      {
+        "id": 635,
+        "guid": "1qc5HjZvrCsga38tqxQ3VC",
+        "overall_width": 1.729999999999997,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.07599999999999998
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 1.73
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 882,
+        "guid": "1byTDaqS91rBnWJlv$nnIo",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 883,
+        "guid": "1byTDaqS91rBnWJlv$nn72",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 884,
+        "guid": "35QeWibpT4DfyH3NIf2nTY",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 885,
+        "guid": "35QeWibpT4DfyH3NIf2sUZ",
+        "overall_width": 1.83,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 1.83
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 886,
+        "guid": "1byTDaqS91rBnWJlv$n$m2",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1122,
+        "guid": "1byTDaqS91rBnWJlv$nnkx",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1123,
+        "guid": "1byTDaqS91rBnWJlv$nn54",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1124,
+        "guid": "1byTDaqS91rBnWJlv$nmAj",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1125,
+        "guid": "35QeWibpT4DfyH3NIf2mPA",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1338,
+        "guid": "1byTDaqS91rBnWJlv$nn_r",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1339,
+        "guid": "1byTDaqS91rBnWJlv$nnv2",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1340,
+        "guid": "1byTDaqS91rBnWJlv$nnu8",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1341,
+        "guid": "1byTDaqS91rBnWJlv$nnxF",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1342,
+        "guid": "1byTDaqS91rBnWJlv$nndY",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1343,
+        "guid": "1byTDaqS91rBnWJlv$nnW1",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1344,
+        "guid": "1byTDaqS91rBnWJlv$nnj_",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1345,
+        "guid": "1byTDaqS91rBnWJlv$nnfS",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1346,
+        "guid": "1byTDaqS91rBnWJlv$nnhB",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1347,
+        "guid": "1byTDaqS91rBnWJlv$nng6",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1348,
+        "guid": "1byTDaqS91rBnWJlv$nnKl",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1349,
+        "guid": "1byTDaqS91rBnWJlv$nnNu",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1350,
+        "guid": "1byTDaqS91rBnWJlv$nnMl",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1351,
+        "guid": "1byTDaqS91rBnWJlv$nnMB",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1352,
+        "guid": "1byTDaqS91rBnWJlv$nnHw",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1353,
+        "guid": "1byTDaqS91rBnWJlv$nnJP",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1354,
+        "guid": "1byTDaqS91rBnWJlv$nnTt",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1355,
+        "guid": "1byTDaqS91rBnWJlv$nnSA",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1356,
+        "guid": "1byTDaqS91rBnWJlv$nnU$",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1357,
+        "guid": "1byTDaqS91rBnWJlv$nnPu",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1358,
+        "guid": "1byTDaqS91rBnWJlv$nnOd",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1359,
+        "guid": "1byTDaqS91rBnWJlv$nnRu",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1360,
+        "guid": "1byTDaqS91rBnWJlv$nnQb",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1361,
+        "guid": "1byTDaqS91rBnWJlv$nn4z",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1362,
+        "guid": "1byTDaqS91rBnWJlv$nn6$",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1363,
+        "guid": "1byTDaqS91rBnWJlv$nn1R",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1364,
+        "guid": "1byTDaqS91rBnWJlv$nn0o",
+        "overall_width": 0.9149999999999977,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1365,
+        "guid": "1byTDaqS91rBnWJlv$nn3d",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1366,
+        "guid": "1byTDaqS91rBnWJlv$nnC3",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1367,
+        "guid": "1byTDaqS91rBnWJlv$nnE_",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1368,
+        "guid": "1byTDaqS91rBnWJlv$nn9n",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1369,
+        "guid": "1byTDaqS91rBnWJlv$nn82",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1370,
+        "guid": "1byTDaqS91rBnWJlv$nmrp",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1371,
+        "guid": "1byTDaqS91rBnWJlv$nmsg",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1372,
+        "guid": "1byTDaqS91rBnWJlv$nms7",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1373,
+        "guid": "1byTDaqS91rBnWJlv$nmnC",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1374,
+        "guid": "1byTDaqS91rBnWJlv$nmpw",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1375,
+        "guid": "1byTDaqS91rBnWJlv$nmoB",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1376,
+        "guid": "1byTDaqS91rBnWJlv$nmzE",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1377,
+        "guid": "1byTDaqS91rBnWJlv$nmyn",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1378,
+        "guid": "1byTDaqS91rBnWJlv$nm$e",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1379,
+        "guid": "1byTDaqS91rBnWJlv$nmuz",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1380,
+        "guid": "1byTDaqS91rBnWJlv$nmxs",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1381,
+        "guid": "1byTDaqS91rBnWJlv$nmdJ",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1382,
+        "guid": "1byTDaqS91rBnWJlv$nmXk",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1383,
+        "guid": "1byTDaqS91rBnWJlv$nmWh",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1384,
+        "guid": "1byTDaqS91rBnWJlv$nmZR",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1385,
+        "guid": "1byTDaqS91rBnWJlv$nmj8",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1386,
+        "guid": "1byTDaqS91rBnWJlv$nmlz",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1387,
+        "guid": "1byTDaqS91rBnWJlv$nmeg",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1388,
+        "guid": "1byTDaqS91rBnWJlv$nmeL",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1389,
+        "guid": "1byTDaqS91rBnWJlv$nmLC",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1390,
+        "guid": "1byTDaqS91rBnWJlv$nmKL",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1391,
+        "guid": "1byTDaqS91rBnWJlv$nmMw",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1392,
+        "guid": "1byTDaqS91rBnWJlv$nmHr",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1393,
+        "guid": "1byTDaqS91rBnWJlv$nmJJ",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1394,
+        "guid": "1byTDaqS91rBnWJlv$nmIS",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1395,
+        "guid": "1byTDaqS91rBnWJlv$nmTD",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1396,
+        "guid": "1byTDaqS91rBnWJlv$nmSy",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1397,
+        "guid": "1byTDaqS91rBnWJlv$nmQZ",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1398,
+        "guid": "1byTDaqS91rBnWJlv$nm5e",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1399,
+        "guid": "1byTDaqS91rBnWJlv$nm7E",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1400,
+        "guid": "1byTDaqS91rBnWJlv$nm6r",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1401,
+        "guid": "1byTDaqS91rBnWJlv$nm10",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1402,
+        "guid": "1byTDaqS91rBnWJlv$nmDB",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1403,
+        "guid": "1byTDaqS91rBnWJlv$nmCW",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1404,
+        "guid": "1byTDaqS91rBnWJlv$nmCV",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1405,
+        "guid": "1byTDaqS91rBnWJlv$nm9g",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1406,
+        "guid": "1byTDaqS91rBnWJlv$nm9F",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1407,
+        "guid": "1byTDaqS91rBnWJlv$nmA0",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1408,
+        "guid": "1byTDaqS91rBnWJlv$n$rP",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1409,
+        "guid": "1byTDaqS91rBnWJlv$n$qC",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1410,
+        "guid": "1byTDaqS91rBnWJlv$n$t9",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1411,
+        "guid": "1byTDaqS91rBnWJlv$n$sW",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1412,
+        "guid": "1byTDaqS91rBnWJlv$n$_5",
+        "overall_width": 1.0,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 1.0
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1413,
+        "guid": "1byTDaqS91rBnWJlv$n$uh",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1414,
+        "guid": "1byTDaqS91rBnWJlv$n$wG",
+        "overall_width": 1.22,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 1.22
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1415,
+        "guid": "1byTDaqS91rBnWJlv$n$ds",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1416,
+        "guid": "1byTDaqS91rBnWJlv$n$cb",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1417,
+        "guid": "1byTDaqS91rBnWJlv$n$Wu",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1418,
+        "guid": "1byTDaqS91rBnWJlv$n$Zq",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1419,
+        "guid": "1byTDaqS91rBnWJlv$n$jF",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1420,
+        "guid": "1byTDaqS91rBnWJlv$n$iu",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1421,
+        "guid": "1byTDaqS91rBnWJlv$n$lh",
+        "overall_width": 0.915000000000001,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1422,
+        "guid": "1byTDaqS91rBnWJlv$n$fc",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1423,
+        "guid": "1byTDaqS91rBnWJlv$n$f7",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1424,
+        "guid": "1byTDaqS91rBnWJlv$n$e0",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1425,
+        "guid": "1byTDaqS91rBnWJlv$n$gx",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1426,
+        "guid": "1byTDaqS91rBnWJlv$n$Ls",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1427,
+        "guid": "1byTDaqS91rBnWJlv$n$M9",
+        "overall_width": 0.9149999999999994,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1428,
+        "guid": "1byTDaqS91rBnWJlv$n$GX",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1429,
+        "guid": "1byTDaqS91rBnWJlv$n$TS",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1430,
+        "guid": "1byTDaqS91rBnWJlv$n$Vz",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1431,
+        "guid": "1byTDaqS91rBnWJlv$n$Um",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1432,
+        "guid": "1byTDaqS91rBnWJlv$n$P5",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1433,
+        "guid": "1byTDaqS91rBnWJlv$n$OE",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1434,
+        "guid": "1byTDaqS91rBnWJlv$n$Rv",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1435,
+        "guid": "1byTDaqS91rBnWJlv$n$Qk",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1436,
+        "guid": "1byTDaqS91rBnWJlv$n$5v",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1437,
+        "guid": "1byTDaqS91rBnWJlv$n$7g",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1438,
+        "guid": "1byTDaqS91rBnWJlv$n$0$",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1439,
+        "guid": "1byTDaqS91rBnWJlv$n$0M",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1440,
+        "guid": "1byTDaqS91rBnWJlv$n$CQ",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1441,
+        "guid": "1byTDaqS91rBnWJlv$n$Ex",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1442,
+        "guid": "1byTDaqS91rBnWJlv$n$9Q",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1443,
+        "guid": "1byTDaqS91rBnWJlv$n_yt",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1444,
+        "guid": "1byTDaqS91rBnWJlv$n__m",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1445,
+        "guid": "35QeWibpT4DfyH3NIf2oNd",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1446,
+        "guid": "35QeWibpT4DfyH3NIf2oBp",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1447,
+        "guid": "35QeWibpT4DfyH3NIf2oDt",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1448,
+        "guid": "35QeWibpT4DfyH3NIf2oC0",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1449,
+        "guid": "35QeWibpT4DfyH3NIf2oFr",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1450,
+        "guid": "35QeWibpT4DfyH3NIf2o3Q",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1451,
+        "guid": "35QeWibpT4DfyH3NIf2o3X",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1452,
+        "guid": "35QeWibpT4DfyH3NIf2o5b",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1453,
+        "guid": "35QeWibpT4DfyH3NIf2o7X",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1454,
+        "guid": "35QeWibpT4DfyH3NIf2ovI",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1455,
+        "guid": "35QeWibpT4DfyH3NIf2ouF",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1456,
+        "guid": "35QeWibpT4DfyH3NIf2ohQ",
+        "overall_width": 0.9149999999999996,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1457,
+        "guid": "35QeWibpT4DfyH3NIf2ogt",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1458,
+        "guid": "35QeWibpT4DfyH3NIf2oj8",
+        "overall_width": 0.9150000000000001,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1459,
+        "guid": "35QeWibpT4DfyH3NIf2ojX",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1460,
+        "guid": "35QeWibpT4DfyH3NIf2oil",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1461,
+        "guid": "35QeWibpT4DfyH3NIf2olL",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1462,
+        "guid": "35QeWibpT4DfyH3NIf2olz",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1463,
+        "guid": "35QeWibpT4DfyH3NIf2oXS",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1464,
+        "guid": "35QeWibpT4DfyH3NIf2oXr",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1465,
+        "guid": "35QeWibpT4DfyH3NIf2obk",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1466,
+        "guid": "35QeWibpT4DfyH3NIf2odN",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1467,
+        "guid": "35QeWibpT4DfyH3NIf2nRq",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1468,
+        "guid": "35QeWibpT4DfyH3NIf2nSp",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1469,
+        "guid": "35QeWibpT4DfyH3NIf2nVW",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1470,
+        "guid": "35QeWibpT4DfyH3NIf2nHB",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1471,
+        "guid": "35QeWibpT4DfyH3NIf2nG0",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1472,
+        "guid": "35QeWibpT4DfyH3NIf2nNu",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1473,
+        "guid": "35QeWibpT4DfyH3NIf2nMH",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1474,
+        "guid": "35QeWibpT4DfyH3NIf2n92",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1475,
+        "guid": "35QeWibpT4DfyH3NIf2nB7",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1476,
+        "guid": "35QeWibpT4DfyH3NIf2nA4",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1477,
+        "guid": "35QeWibpT4DfyH3NIf2nDz",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1478,
+        "guid": "35QeWibpT4DfyH3NIf2nCI",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1479,
+        "guid": "35QeWibpT4DfyH3NIf2n1I",
+        "overall_width": 0.9149999999999977,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1480,
+        "guid": "35QeWibpT4DfyH3NIf2n09",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1481,
+        "guid": "35QeWibpT4DfyH3NIf2n3I",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1482,
+        "guid": "35QeWibpT4DfyH3NIf2n25",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1483,
+        "guid": "35QeWibpT4DfyH3NIf2n5C",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1484,
+        "guid": "35QeWibpT4DfyH3NIf2n4J",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1485,
+        "guid": "35QeWibpT4DfyH3NIf2n7C",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1486,
+        "guid": "35QeWibpT4DfyH3NIf2n6z",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1487,
+        "guid": "35QeWibpT4DfyH3NIf2nvC",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1488,
+        "guid": "35QeWibpT4DfyH3NIf2nuL",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1489,
+        "guid": "35QeWibpT4DfyH3NIf2nxi",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1490,
+        "guid": "35QeWibpT4DfyH3NIf2nzB",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1491,
+        "guid": "35QeWibpT4DfyH3NIf2n$O",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1492,
+        "guid": "35QeWibpT4DfyH3NIf2npj",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1493,
+        "guid": "35QeWibpT4DfyH3NIf2no0",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1494,
+        "guid": "35QeWibpT4DfyH3NIf2nrl",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1495,
+        "guid": "35QeWibpT4DfyH3NIf2nqk",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1496,
+        "guid": "35QeWibpT4DfyH3NIf2nsN",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1497,
+        "guid": "35QeWibpT4DfyH3NIf2nf$",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1498,
+        "guid": "35QeWibpT4DfyH3NIf2nez",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1499,
+        "guid": "35QeWibpT4DfyH3NIf2ngM",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1500,
+        "guid": "35QeWibpT4DfyH3NIf2njx",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1501,
+        "guid": "35QeWibpT4DfyH3NIf2nl2",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1502,
+        "guid": "35QeWibpT4DfyH3NIf2nk$",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1503,
+        "guid": "35QeWibpT4DfyH3NIf2nXy",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1504,
+        "guid": "35QeWibpT4DfyH3NIf2nWf",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1505,
+        "guid": "35QeWibpT4DfyH3NIf2nds",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1506,
+        "guid": "35QeWibpT4DfyH3NIf2ncB",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1507,
+        "guid": "35QeWibpT4DfyH3NIf2mOF",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1508,
+        "guid": "35QeWibpT4DfyH3NIf2mOc",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1509,
+        "guid": "35QeWibpT4DfyH3NIf2mR5",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1510,
+        "guid": "35QeWibpT4DfyH3NIf2mQM",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1511,
+        "guid": "35QeWibpT4DfyH3NIf2mTr",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1512,
+        "guid": "35QeWibpT4DfyH3NIf2mS8",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1513,
+        "guid": "35QeWibpT4DfyH3NIf2mVx",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1514,
+        "guid": "35QeWibpT4DfyH3NIf2mHI",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1515,
+        "guid": "35QeWibpT4DfyH3NIf2mGD",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1516,
+        "guid": "35QeWibpT4DfyH3NIf2mJK",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1517,
+        "guid": "35QeWibpT4DfyH3NIf2sGN",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1518,
+        "guid": "35QeWibpT4DfyH3NIf2sJ8",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1519,
+        "guid": "35QeWibpT4DfyH3NIf2sIn",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1520,
+        "guid": "0mxk1RW8H5mvX1dNnpRqn4",
+        "overall_width": 1.83,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 1.83
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1521,
+        "guid": "0tIhQ6hmz02e5gznEed7$9",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1522,
+        "guid": "0tIhQ6hmz02e5gznEed4FD",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1523,
+        "guid": "3pms57Ad5AVAb74jf4yKZb",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1524,
+        "guid": "0ztdC3L1HAzhbhMHypqcYf",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1525,
+        "guid": "0ztdC3L1HAzhbhMHypqcDa",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1526,
+        "guid": "2H9Xpd9Nf1Uu7_jFnBZWSx",
+        "overall_width": 1.83,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 1.83
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1527,
+        "guid": "1eHJakbVPEdf9cGdMXVBAY",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1528,
+        "guid": "1byTDaqS91rBnWJlv$nmmF",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1529,
+        "guid": "1byTDaqS91rBnWJlv$nmwJ",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1530,
+        "guid": "1byTDaqS91rBnWJlv$nmaW",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1531,
+        "guid": "1byTDaqS91rBnWJlv$nmW0",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1532,
+        "guid": "1byTDaqS91rBnWJlv$nmku",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1533,
+        "guid": "1byTDaqS91rBnWJlv$nmfx",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1534,
+        "guid": "1byTDaqS91rBnWJlv$nmhs",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1535,
+        "guid": "1byTDaqS91rBnWJlv$nmg3",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1536,
+        "guid": "1byTDaqS91rBnWJlv$nmGk",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1537,
+        "guid": "1byTDaqS91rBnWJlv$n$nD",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1538,
+        "guid": "1byTDaqS91rBnWJlv$n$pH",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1539,
+        "guid": "1byTDaqS91rBnWJlv$n$WN",
+        "overall_width": 0.9149999999999977,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1540,
+        "guid": "1byTDaqS91rBnWJlv$n$H4",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1541,
+        "guid": "35QeWibpT4DfyH3NIf2oNE",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1542,
+        "guid": "35QeWibpT4DfyH3NIf2oAY",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1543,
+        "guid": "35QeWibpT4DfyH3NIf2oEe",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1544,
+        "guid": "35QeWibpT4DfyH3NIf2o1m",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1545,
+        "guid": "35QeWibpT4DfyH3NIf2o03",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1546,
+        "guid": "35QeWibpT4DfyH3NIf2o7O",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1547,
+        "guid": "35QeWibpT4DfyH3NIf2oWQ",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1548,
+        "guid": "35QeWibpT4DfyH3NIf2nIt",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1549,
+        "guid": "35QeWibpT4DfyH3NIf2nLm",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1550,
+        "guid": "35QeWibpT4DfyH3NIf2nKz",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1551,
+        "guid": "35QeWibpT4DfyH3NIf2nYS",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1552,
+        "guid": "35QeWibpT4DfyH3NIf2nbp",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1553,
+        "guid": "1uDBQ9y7vCyxXlpVEuen9f",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1888,
+        "guid": "1byTDaqS91rBnWJlv$nncb",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1889,
+        "guid": "1byTDaqS91rBnWJlv$n$Kj",
+        "overall_width": 0.9150000000000001,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1890,
+        "guid": "1byTDaqS91rBnWJlv$n$Mi",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1891,
+        "guid": "1byTDaqS91rBnWJlv$n$Db",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1892,
+        "guid": "1byTDaqS91rBnWJlv$n_q6",
+        "overall_width": 1.22,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 1.22
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1893,
+        "guid": "1byTDaqS91rBnWJlv$n_s5",
+        "overall_width": 0.9150000000000001,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1894,
+        "guid": "0mxk1RW8H5mvX1dNnpRqy_",
+        "overall_width": 1.83,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 1.83
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1895,
+        "guid": "0mxk1RW8H5mvX1dNnpRqwu",
+        "overall_width": 1.83,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 1.83
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1896,
+        "guid": "0mxk1RW8H5mvX1dNnpRqtX",
+        "overall_width": 0.9149999999999999,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 1897,
+        "guid": "0mxk1RW8H5mvX1dNnpRqso",
+        "overall_width": 0.9150000000000005,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Trim Width",
+            "value": 0.076
+          },
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.915
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2014,
+        "guid": "0ClPCUC7jCQRnj1dhupHk0",
+        "overall_width": 0.8649999999999983,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.8649999999999999
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2015,
+        "guid": "3qpE7fVkr8dRZ2wfCc6tWA",
+        "overall_width": 0.8650000000000027,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.8649999999999999
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2016,
+        "guid": "3qpE7fVkr8dRZ2wfCc6tjC",
+        "overall_width": 0.8650000000000027,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.8649999999999999
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2017,
+        "guid": "3qpE7fVkr8dRZ2wfCc6tpH",
+        "overall_width": 0.8650000000000027,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.8649999999999999
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2018,
+        "guid": "3qpE7fVkr8dRZ2wfCc6tsf",
+        "overall_width": 0.8650000000000027,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.8649999999999999
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2019,
+        "guid": "3qpE7fVkr8dRZ2wfCc6tw0",
+        "overall_width": 0.8650000000000027,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.8649999999999999
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2020,
+        "guid": "3qpE7fVkr8dRZ2wfCc6tut",
+        "overall_width": 0.8650000000000027,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.8649999999999999
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2021,
+        "guid": "35QeWibpT4DfyH3NIf2nOv",
+        "overall_width": 0.8650000000000027,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Type_Dimensions",
+            "name": "Width",
+            "value": 0.8649999999999999
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2251,
+        "guid": "0otfaO0qPDAhynjJ6DnLXx",
+        "overall_width": 1.800000000000004,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Dimensions",
+            "name": "Width",
+            "value": 1.800000000000002
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2252,
+        "guid": "3o5ntlA212uQCF0q6eQsZI",
+        "overall_width": 1.800000000000004,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Dimensions",
+            "name": "Width",
+            "value": 1.800000000000002
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2253,
+        "guid": "0bpfxAz3XBrAx$RjFuHvgA",
+        "overall_width": 0.9010005999998668,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Dimensions",
+            "name": "Width",
+            "value": 0.9010005999998647
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2254,
+        "guid": "1oCmeD_UH0NAQ13DTKAKXn",
+        "overall_width": 0.9010005999998668,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Dimensions",
+            "name": "Width",
+            "value": 0.9010005999998647
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2255,
+        "guid": "0bpfxAz3XBrAx$RjFuHv4q",
+        "overall_width": 0.8995487494385133,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Dimensions",
+            "name": "Width",
+            "value": 0.8995487494385112
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2256,
+        "guid": "3LjuaIy0TB9BYwqsSadrQS",
+        "overall_width": 0.8995487494385133,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Dimensions",
+            "name": "Width",
+            "value": 0.8995487494385112
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2257,
+        "guid": "1I_Rp6d3j27fE7zFUMgaqf",
+        "overall_width": 2.701999999999984,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Dimensions",
+            "name": "Width",
+            "value": 2.701999999999984
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2258,
+        "guid": "1I_Rp6d3j27fE7zFUMgaqj",
+        "overall_width": 2.701999999999984,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Dimensions",
+            "name": "Width",
+            "value": 2.701999999999984
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2259,
+        "guid": "2NHD_$8fb3ZexljM$wSStT",
+        "overall_width": 2.701999999999984,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Dimensions",
+            "name": "Width",
+            "value": 2.701999999999984
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      },
+      {
+        "id": 2260,
+        "guid": "3eIXtbz01CQuZOCQ8qhuxf",
+        "overall_width": 2.701999999999984,
+        "width_properties": [
+          {
+            "set": "PSet_Revit_Dimensions",
+            "name": "Width",
+            "value": 2.701999999999984
+          },
+          {
+            "set": "PSet_Revit_Type_Other",
+            "name": "NominalWidth",
+            "value": "NominalWidth"
+          }
+        ]
+      }
+    ],
+    "legacy_first_width_properties": {
+      "Trim Width": 236,
+      "Width": 18
+    },
+    "narrow_edges": 238,
+    "legal_component_sizes": [
+      261,
+      1,
+      1
+    ],
+    "legacy_width_values": [
+      {
+        "type": "door",
+        "width": 0.076,
+        "count": 237
+      },
+      {
+        "type": "proximity",
+        "width": 1.5,
+        "count": 488
+      },
+      {
+        "type": "door",
+        "width": 0.0759999999999999,
+        "count": 1
+      },
+      {
+        "type": "door",
+        "width": 0.8649999999999999,
+        "count": 4
+      },
+      {
+        "type": "stair",
+        "width": 1.2,
+        "count": 3
+      },
+      {
+        "type": "door",
+        "width": 2.701999999999984,
+        "count": 1
+      },
+      {
+        "type": "door",
+        "width": 0.8995487494385112,
+        "count": 1
+      }
+    ]
+  },
+  "office": {
+    "unit_scale": 1,
+    "doors": [
+      {
+        "id": 48161,
+        "guid": "3qloCPnZDEQBom1ZjBlwJP",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 48609,
+        "guid": "0_flqizUv5_A_EGt7DzP3T",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 48905,
+        "guid": "17n0YjYkvEshOmsrIPLGOb",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 49191,
+        "guid": "31Gx3VvgP1fvwL2I0a9YtY",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 49477,
+        "guid": "0Xbk1qGZnCY9arQDkkuJ8L",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 49763,
+        "guid": "3NTkL25Pb8Y8HEKKJUt_B_",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 50616,
+        "guid": "1nDSxVMDT3hh2Ql2HEz6Lg",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 50902,
+        "guid": "2MHPtmLzv5OhZf$6Z1Y75J",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 51188,
+        "guid": "29qQ5ECrL6nQEhooPP__BH",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 51474,
+        "guid": "3rmqVs9ZL3qgw1cva2u9Fv",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 51760,
+        "guid": "1lf5dxZ1LE_xJj$eJu8Rhu",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 52408,
+        "guid": "2$tv64Cn5DZx8YisuS365o",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 52694,
+        "guid": "123VQUHCn26ei6whtqvtKu",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 55844,
+        "guid": "0Ti0dr3tHAq8uzw2luJtyI",
+        "overall_width": 1.8,
+        "width_properties": []
+      },
+      {
+        "id": 56872,
+        "guid": "2pe3RqZ0j8ogoAvp7iGUAH",
+        "overall_width": 1.8,
+        "width_properties": []
+      },
+      {
+        "id": 57992,
+        "guid": "3sXEZFiePFsxi_o7909$c3",
+        "overall_width": 1.8,
+        "width_properties": []
+      },
+      {
+        "id": 90012,
+        "guid": "18PQUIFELEARLM4c0brquf",
+        "overall_width": 2.0,
+        "width_properties": []
+      },
+      {
+        "id": 99494,
+        "guid": "2d24khq3H2EhLI7osiekrD",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 99780,
+        "guid": "0nixpH$hD2$xLwip3vL96O",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 100066,
+        "guid": "2SfY7UTIz1E82rEMOUSWux",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 100352,
+        "guid": "2FYBB$DerEng8G$eISvGgZ",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 101071,
+        "guid": "1njbY3IMb4IedX5fLGTCRc",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 101357,
+        "guid": "0YIVuBlyXF3PI_fXw2b_vJ",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 101643,
+        "guid": "2pX0sc7rf06usjFMq1TsGs",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 102564,
+        "guid": "0p1Mt3h7nDeQ1Q4N9eEl9H",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 102850,
+        "guid": "3nS8Xe8c5BpfdWxU$cBkvz",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 103136,
+        "guid": "3QI0Za4AD7g9EDuOxKtL4z",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 103422,
+        "guid": "20nncC0vDDp9h64AX6XevC",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 103708,
+        "guid": "3c7FFURCHAIuL_Uqfwogkh",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 103994,
+        "guid": "2ZDRA4lYXAawe3WLk$RpXy",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 104646,
+        "guid": "1FCKjvOWnEAv7x1dg2f7BI",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 104932,
+        "guid": "2k6vBG3yn9hRJUYx$GK5vo",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 112765,
+        "guid": "1_hrYGMATEmeNbEHgfoKxd",
+        "overall_width": 1.8,
+        "width_properties": []
+      },
+      {
+        "id": 113584,
+        "guid": "31UFds84f5oAxxal4G6S8P",
+        "overall_width": 1.8,
+        "width_properties": []
+      },
+      {
+        "id": 155367,
+        "guid": "17HzXMa29CgeqdGTriCwwh",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 155653,
+        "guid": "37NUOXsmX3z9p4Kk0VJikq",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 155939,
+        "guid": "2VGdy0IID6LxPfFQdDE_rz",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 156225,
+        "guid": "36$lV978n70fzaOS1aGkQb",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 156511,
+        "guid": "2ezLa6k3r22f7kZrwjKNLO",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 156797,
+        "guid": "2dmNSROS54DQzD5NyEFXm$",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 157717,
+        "guid": "2sSHD6n39BZQnSaHjLYpnc",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 158003,
+        "guid": "3ZJxNn9Nz6HQakewV2F393",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 158289,
+        "guid": "2tu8_KoLfDpho5M9F1jtqL",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 158575,
+        "guid": "00RjztLorCQgcGEHv7fY3g",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 158861,
+        "guid": "35jd8lu1fDJAuZoKl4ldDk",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 159147,
+        "guid": "32UdM49pfAMxiX5WyXhCuy",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 160137,
+        "guid": "0vTIWG60z84eKitb_eWAIR",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 160423,
+        "guid": "3qz8vRMKXCHubRHdl$maGl",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 160709,
+        "guid": "08uaDJHLH3FAZ6Hg9FwzkG",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 160995,
+        "guid": "0aFvTq1m96zgWbjq4TXV_5",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 161281,
+        "guid": "1d9QvK4Qv1Iem3fiUhniQB",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 161567,
+        "guid": "1BWbpTElb4dAcW2J6oyRrZ",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 161853,
+        "guid": "1gw9pvArXFYfZkbYdrwJwh",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 165708,
+        "guid": "0JdG5rMQr10RkgztM3HqwA",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 166546,
+        "guid": "1p4YfqvYLCyfRRiNruiahD",
+        "overall_width": 1.8,
+        "width_properties": []
+      },
+      {
+        "id": 167622,
+        "guid": "1MlsdMSb17ygNfEs7N22qC",
+        "overall_width": 1.8,
+        "width_properties": []
+      },
+      {
+        "id": 208127,
+        "guid": "2GIKSl4yvD7wO8pi7zg$sQ",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 208413,
+        "guid": "3UcRuggsrAXPWkQpXc3dLn",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 208699,
+        "guid": "3KiAVCT1D1t8Xn0nRB8nld",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 208985,
+        "guid": "2ijDjejvTCZvZnfGVKFht6",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 209271,
+        "guid": "0WVkDf7jjAGhdceJ18iI2g",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 209557,
+        "guid": "2VJpmvlMLEvOKD0Mb9hAiw",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 210477,
+        "guid": "1ufhCZbhH2Ifud2RWdYCPS",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 210763,
+        "guid": "3mQi89EHb4rOWufyKZfZhB",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 211049,
+        "guid": "24UZuOfCf3JhP_9U8SWMuK",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 211335,
+        "guid": "3uYK2H0E52Qhz8bK3APcca",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 211621,
+        "guid": "0CFMpIkEzADxWz$xDSGgek",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 211907,
+        "guid": "2wCVZFSRnBZ8YJ5Ri$bwG7",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 212897,
+        "guid": "1EjnchXi9Esx$bY6vHG2RD",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 213183,
+        "guid": "0o6iTaAHzAQ9cd4xHGAaOG",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 213469,
+        "guid": "1uDQb3wH95JQTlYH_Y617r",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 213755,
+        "guid": "2rfNFYnCT2WAXMkqZ5PiDc",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 214041,
+        "guid": "2$R4rUG1nFkBAylN9aGNhb",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 214327,
+        "guid": "2h5A513TXAAhxsa3$Armxt",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 214613,
+        "guid": "0HthpQNkzAiuSXm9HWsQaw",
+        "overall_width": 1.0,
+        "width_properties": []
+      },
+      {
+        "id": 218941,
+        "guid": "3XIgDIN6vBjxvjdvI7ngjF",
+        "overall_width": 1.8,
+        "width_properties": []
+      },
+      {
+        "id": 220017,
+        "guid": "2N6esOMjP29AvhRLQ1Jz3$",
+        "overall_width": 1.8,
+        "width_properties": []
+      }
+    ],
+    "legacy_first_width_properties": {},
+    "narrow_edges": 0,
+    "legal_component_sizes": [
+      82
+    ],
+    "legacy_width_values": [
+      {
+        "type": "proximity",
+        "width": 1.5,
+        "count": 121
+      },
+      {
+        "type": "door",
+        "width": 0.9,
+        "count": 77
+      },
+      {
+        "type": "stair",
+        "width": 1.2,
+        "count": 4
+      },
+      {
+        "type": "repair",
+        "width": 1.5,
+        "count": 2
+      }
+    ]
+  }
+}

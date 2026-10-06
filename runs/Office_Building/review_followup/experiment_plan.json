@@ -1,0 +1,156 @@
+{
+  "declared_before_tuning_selection": "2026-10-05",
+  "training_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "validation_seed": 22002,
+  "test_seed": 33003,
+  "pilot_training_seed": 11001,
+  "tuning": {
+    "robots": 1,
+    "learning_rates": [
+      0.0001,
+      0.0003,
+      0.001
+    ],
+    "algorithms": [
+      "dqn",
+      "ppo"
+    ],
+    "selection": "validation success, then SPL, then fewer steps, then lower learning rate",
+    "budget": 1000
+  },
+  "neural_final": {
+    "robots": [
+      1,
+      3
+    ],
+    "representations": [
+      "frozen_gcn_64",
+      "raw_16_zero_padded_to_64"
+    ],
+    "budgets": [
+      1000,
+      2000
+    ],
+    "round_period": 50,
+    "same_network_capacity": true,
+    "capacity_matching_clarification": "The original label means identical architecture and total parameter count. Zero-padding raw features does not guarantee identical functional capacity; raw inputs retain graph centralities. This is an encoder ablation, not a graph-versus-no-graph experiment.",
+    "tuning_scope_clarification": "One validation-only seed in the GCN K=1 condition selects a rate reused for both representations and K values; Raw is not separately tuned.",
+    "dqn_execution": "experiment-only batched kernel; scalar equivalence diagnostic saved; original baselines unchanged"
+  },
+  "additional_building": {
+    "building": "Clinic",
+    "robots": [
+      3,
+      5,
+      10
+    ],
+    "methods": [
+      "local",
+      "centralized",
+      "fedavg"
+    ],
+    "per_robot_budget": 1000,
+    "graph_correction": {
+      "reason": "Legacy substring width matching selected Trim Width (0.076 m) instead of IfcDoor.OverallWidth; cached references also failed to filter permanently unavailable edges.",
+      "recorded_at_utc": "2026-10-05T21:28:57.521491+00:00",
+      "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc",
+      "topology_unchanged": true,
+      "legacy_results_preserved": true
+    },
+    "graph_path": "runs\\Clinic_Architectural_width_corrected\\data\\processed\\graph.gpickle"
+  },
+  "conflict_analysis": {
+    "robots": [
+      3,
+      5,
+      10
+    ],
+    "saved_fedavg_qtables": true,
+    "destination_proposals_and_rejection_reasons": true
+  },
+  "non_iid": {
+    "robots": 5,
+    "spatial_start_target_partitions": true,
+    "methods": [
+      "local",
+      "fedavg"
+    ],
+    "implementation_clarification": {
+      "recorded_after_completion_utc": "2026-10-05T20:24:55Z",
+      "node_order": "normalized x, then normalized y, then string node identifier",
+      "partition_sizes": [
+        17,
+        17,
+        16,
+        16,
+        16
+      ],
+      "profile_seeds": [
+        10000,
+        10001,
+        10002,
+        10003,
+        10004
+      ],
+      "profile_seeds_fixed_across_training_seeds": true,
+      "both_start_and_target_within_client_partition": true,
+      "paths_not_restricted_to_partition": true,
+      "test_distribution": "same whole-building frozen scenarios as primary Office evaluation, including out-of-region tasks"
+    }
+  },
+  "statistics": "new post-review families; paired success and SPL across ten seeds with Holm correction; structural associations descriptive",
+  "dynamic_protocol_seed": 44004,
+  "holm_families": {
+    "post_review_prioritized_planning": 16,
+    "post_review_clinic_fedavg_vs_local": 12,
+    "post_review_clinic_fedavg_vs_centralized": 12,
+    "post_review_spatial_fedavg_vs_local": 4,
+    "post_review_spatial_matched_fedavg_vs_local": 4,
+    "post_review_dqn_representation": 16,
+    "post_review_ppo_representation": 16,
+    "post_review_dqn_longer_budget": 16,
+    "post_review_ppo_longer_budget": 16
+  },
+  "post_hoc_spatial_control": {
+    "declared_before_control_evaluation": "2026-10-05",
+    "purpose": "Distinguish whole-building task shift from performance on tasks within each client's training partition",
+    "new_training": false,
+    "saved_policy_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "robots": 5,
+    "static_scenarios": 200,
+    "static_seed": 33003,
+    "dynamic_seed": 44004,
+    "family_size": 4,
+    "label": "additional post-hoc control decided after the whole-building spatial results; not part of the original declared training comparison"
+  },
+  "runtime_versions": {
+    "torch": "2.12.0",
+    "numpy": "2.4.4",
+    "networkx": "3.6.1",
+    "gymnasium": "1.3.0",
+    "pandas": "3.0.3"
+  },
+  "numerical_execution": "Post-review DQN/PPO use separately verified batched execution of the original update equations; outputs are not bitwise identical. New representation/budget contrasts all use these kernels. Primary saved results are unchanged."
+}

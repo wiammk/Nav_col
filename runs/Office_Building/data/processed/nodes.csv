@@ -1,0 +1,83 @@
+id,guid,name,x,y,z,area,type,floor,floor_elev,floor_guid,risk,capacity
+0,3UEb2iq7D2tOgbX6Mufs$X,001,3.1,4.5,-1.65,24.64,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,2
+1,2xcLNHPon6VO6wB_n0EQLF,002,9.0,4.5,-1.65,25.52,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,2
+2,2Hh$tXimL1_Aogi9jn1cZ4,003,15.0,4.5,-1.65,25.52,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,2
+3,2sVpKMTdb3u8IUv50wOLpo,004,21.0,4.5,-1.65,25.52,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,2
+4,0V74RtuUH1zQt_CcawQbBc,005,27.0,4.5,-1.65,25.52,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,2
+5,0dXE$xLxz8MwbtYoTqJPiO,006,35.9,8.0,-1.65,132.24,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,13
+6,2G3Zgh3YLFBxViczryC8tv,007,28.5,11.5,-1.65,12.32,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,1
+7,1pG7ErnqL79fYOSoJhY$mD,008,25.45,11.5,-1.65,12.76,toilet,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,1
+8,2NO$Il8fr1n8x3zsU1IoYc,010,13.5,11.5,-1.65,12.32,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,1
+9,3vTaz$m4D7Mw20Cj4ZCMEW,011,10.5,11.5,-1.65,12.32,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,1
+10,29dtO28k16G9baf14UO37j,012,7.5,11.5,-1.65,12.32,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,1
+11,3YOWN6kp53UhVDk7gccfjD,013,4.5,11.5,-1.65,12.32,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,1
+12,25NDKbpWH5r94ho13fJMeb,014,1.6,11.5,-1.65,11.44,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,1
+13,3cjnMny5DF0g1J6kKZWO4Y,015,9.15,8.0,-1.65,35.4,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,3
+14,2Zmi8kumn3P9N9wBPT48lG,017,26.95,8.0,-1.65,11.8,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,1
+15,3Gz7u_d1P7IA35Wmtg48Rc,016,21.0,11.35,-1.65,46.98,room,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,4
+16,1nsRm1QQb1xwWpzzFR7Ax3,009,16.55,11.5,-1.65,12.76,toilet,Keller,-3.0,3krrpJBfL2SBWSONoQ68Xx,0.05,1
+17,3EN96kdYDB2OOGjNLp8e86,101,1.6,4.5,1.35,11.44,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,1
+18,1_Evy7T$DCiwLgTMLHCRoe,102,6.0,4.5,1.35,25.52,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,2
+19,3eQ_MQ5er5UeRXq4xxAoKl,103,12.0,4.5,1.35,25.52,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,2
+20,3KaloR8018sAKZVwuYVbSu,116,9.15,8.0,1.35,35.4,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,3
+21,03hhkFXKT4RPFNu5rDrZPL,115,3.1,11.5,1.35,24.64,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,2
+22,1oKaKV7Wz8IOJ10cA1PGWP,113,16.55,11.5,1.35,12.76,toilet,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,1
+23,3j5r$vfHT3JfqUfpdRoXnP,112,25.45,11.5,1.35,12.76,toilet,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,1
+24,3t8qjHTuTAigDlC1x7D16b,111,28.5,11.5,1.35,12.32,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,1
+25,1DxredyET5bf_85HZe8$FO,105,28.45,4.5,1.35,39.16,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,3
+26,2ED0MLfrf17BXIsuJYCs7R,110,31.5,11.5,1.35,12.32,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,1
+27,1loQAAB191MA5YmsaMJHkI,109,34.5,11.5,1.35,12.32,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,1
+28,3Xu6SpY4vC89stuKlMWE2n,108,37.5,11.5,1.35,12.32,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,1
+29,3yAAZZ86j388XApaG$h1X6,107,40.4,11.5,1.35,11.44,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,1
+30,3$FatfHY1Cg9apAMwbKPN8,106,37.4,4.5,1.35,37.84,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,3
+31,0_TtqXcOrDbeTXyb5q0Uxb,118,32.85,8.0,1.35,35.4,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,3
+32,25QUQJ9jHAFengkpc9N7GR,104,16.55,4.5,1.35,12.76,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,1
+33,0jhU4VZ6XCxee3pjfx5VMh,114,10.5,11.5,1.35,38.72,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,3
+34,1RP4kkhTDFJuLugWfrM_1s,117,21.0,8.0,1.35,83.16,room,Erdgeschoss,0.0,0jrZ4kmNLEyeIrSAFW8xw8,0.05,8
+35,25CC32yK130ALlKsnej9JW,220,9.15,8.0,4.35,35.4,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,3
+36,37pP75EaP1axQNg3rWc_WT,214,16.55,11.5,4.35,12.76,toilet,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,1
+37,0f6kjO4cnBngLgZgtaoBTE,213,25.45,11.5,4.35,12.76,toilet,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,1
+38,3XJSZHVdLFTQTPYNfhA6a2,222,32.85,8.0,4.35,35.4,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,3
+39,1AW8GAtUnEYB9XPWOUYKK5,211,31.5,11.5,4.35,12.32,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,1
+40,0uPiF9LkPAqeB8f54Uy3_C,221,21.0,11.35,4.35,46.98,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,4
+41,24vVAUYDH2SetutQQsZBMv,207,37.4,4.5,4.35,37.84,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,3
+42,2goaA6RR92B9xducYbaQVU,206,30.0,4.5,4.35,25.52,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,2
+43,0i4GPkF$j1$P1_N4yoKfHm,210,34.5,11.5,4.35,12.32,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,1
+44,2Yd3UbuHLF0P7Q5pq$wqrF,219,1.6,11.5,4.35,11.44,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,1
+45,1GtYUXG753_h6i4vKAf46v,218,4.5,11.5,4.35,12.32,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,1
+46,0VWZeARNT8IAUcPL5OoYiA,217,7.5,11.5,4.35,12.32,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,1
+47,3kV3mGMIX3BvUw5dL_lJVg,215,13.5,11.5,4.35,12.32,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,1
+48,1yZQvqj15Ab8eMXDuz85Dy,204,21.0,4.5,4.35,25.52,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,2
+49,0uC7OD3$5F7v$zL3aaoEig,201,3.1,4.5,4.35,24.64,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,2
+50,2E2TaOnqD0chpbuH8tXCpW,208,40.4,11.5,4.35,11.44,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,1
+51,3shuyF_Yb7yu2P$QLB2s8G,202,9.0,4.5,4.35,25.52,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,2
+52,0UiHARbFzF1RT4g_GKem_B,203,15.0,4.5,4.35,25.52,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,2
+53,1LVv$xQpj6k8KE6pcNlDDU,209,37.5,11.5,4.35,12.32,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,1
+54,1a3ixYyUn0QO4HWUYKN$4p,212,28.5,11.5,4.35,12.32,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,1
+55,3iSzpa9d93jhTDB7hG0QBW,205,25.5,4.5,4.35,12.32,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,1
+56,0K6ICBa1zCjvUnsy8qMIRC,216,10.5,11.5,4.35,12.32,room,1. Obergeschoss,3.0,3wES2XYi17$hrBr7mbDuyg,0.05,1
+57,3M3dydUxH2hR7Uvg9QNhS$,313,25.45,11.5,7.35,12.76,toilet,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,1
+58,2lebmw3XD9w9PIIn4HKbwh,302,9.0,4.5,7.35,25.52,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,2
+59,09m2tgyfr9UfikvrKFMkeD,303,15.0,4.5,7.35,25.52,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,2
+60,0dc6ovxJLDww6sjSpu_cfN,304,21.0,4.5,7.35,25.52,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,2
+61,0U5AcnRYX7aw$OIZXqMUaR,305,27.0,4.5,7.35,25.52,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,2
+62,1jJ7opRcX6uevup8Hnq0$2,318,4.5,11.5,7.35,12.32,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,1
+63,30oDtenHrAwuYDgWTayiN$,317,7.5,11.5,7.35,12.32,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,1
+64,3$PC9MkEH1Ex24UD3VHyzP,316,10.5,11.5,7.35,12.32,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,1
+65,0Veunyhgf7QxfJXezc1Ydu,315,13.5,11.5,7.35,12.32,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,1
+66,1vWhxAiTL1RR3r4R3eC2Vv,306,33.0,4.5,7.35,25.52,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,2
+67,3uvYP4OyH5ufyPIMbZD86h,307,38.9,4.5,7.35,24.64,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,2
+68,0oB0YIgnPE49CsBpGIdxOR,312,28.5,11.5,7.35,12.32,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,1
+69,3jurQKaejCqgtlRMQvYO$h,311,31.5,11.5,7.35,12.32,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,1
+70,1I4mvNGj58VPS4IqdvGDOQ,310,34.5,11.5,7.35,12.32,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,1
+71,3BlfjPTqH1qeG63Yox0pCX,309,37.5,11.5,7.35,12.32,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,1
+72,1qHIiTcLf7zwz3pTXujZ3t,308,40.4,11.5,7.35,11.44,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,1
+73,0jh6L39QvEQu8mVKX3j43f,314,16.55,11.5,7.35,12.76,toilet,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,1
+74,3zaEFaiGrF1ftyFPQrOe_i,301,3.1,4.5,7.35,24.64,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,2
+75,3i9iiZlcT5eQkuRPP$TrLS,319,1.6,11.5,7.35,11.44,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,1
+76,3gYFdGsxTBa9PFlMvRAaiF,320,9.15,8.0,7.35,35.4,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,3
+77,2mSYEw1YLDvhMYvUr3eREJ,321,21.0,11.35,7.35,46.98,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,4
+78,3CXBDjcSTES8AedjLKSfJe,322,32.85,8.0,7.35,35.4,room,2. Obergeschoss,6.0,2SZ5lnBQD2u9lFVZFen_5J,0.05,3
+79,3txvJd9V1BPhyU$48F$mnF,403,9.15,8.0,9.82,201.78,room,Dachgeschoss,9.0,3P_7taSfTB1uu5RSuYEGO1,0.05,20
+80,0jbV$RErb7o9P7rp7ALEd$,402,32.85,8.0,9.82,201.78,room,Dachgeschoss,9.0,3P_7taSfTB1uu5RSuYEGO1,0.05,20
+81,2_rG4oliv3CxmStpGPieup,401,21.0,9.0,10.335,72.36,room,Dachgeschoss,9.0,3P_7taSfTB1uu5RSuYEGO1,0.05,7

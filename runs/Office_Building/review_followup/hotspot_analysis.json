@@ -1,0 +1,677 @@
+[
+  {
+    "robots": 3,
+    "pooled_regimes": [
+      "static",
+      "dynamic_edge_closure"
+    ],
+    "fidelity": [
+      {
+        "seed": 42,
+        "regime": "static",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 42,
+        "regime": "dynamic_edge_closure",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 43,
+        "regime": "static",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 43,
+        "regime": "dynamic_edge_closure",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 44,
+        "regime": "static",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 44,
+        "regime": "dynamic_edge_closure",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 45,
+        "regime": "static",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 45,
+        "regime": "dynamic_edge_closure",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 46,
+        "regime": "static",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 46,
+        "regime": "dynamic_edge_closure",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 47,
+        "regime": "static",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 47,
+        "regime": "dynamic_edge_closure",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 48,
+        "regime": "static",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 48,
+        "regime": "dynamic_edge_closure",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 49,
+        "regime": "static",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 49,
+        "regime": "dynamic_edge_closure",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 50,
+        "regime": "static",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 50,
+        "regime": "dynamic_edge_closure",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 51,
+        "regime": "static",
+        "rows": 600,
+        "differences": 0
+      },
+      {
+        "seed": 51,
+        "regime": "dynamic_edge_closure",
+        "rows": 600,
+        "differences": 0
+      }
+    ],
+    "total_proposals": 332414,
+    "total_conflict_involvements": 21390,
+    "total_deadlocks": 2057,
+    "stair_endpoint_nodes": [
+      15,
+      22,
+      40,
+      77,
+      81
+    ],
+    "stair_endpoint_conflict_share": 0.7407199625993455,
+    "stair_endpoint_deadlock_share": 0.6246961594555177,
+    "betweenness_conflict_count_spearman": 0.7227484787700157,
+    "betweenness_rejection_rate_spearman": 0.6878642837039628,
+    "top_conflict_nodes": [
+      {
+        "node": 22,
+        "betweenness": 0.5854938271604938,
+        "degree": 6,
+        "stair_endpoint": 1,
+        "proposals": 21022,
+        "conflicts": 10380,
+        "deadlocks": 71,
+        "rejection_rate": 0.49376843307011703
+      },
+      {
+        "node": 40,
+        "betweenness": 0.6808641975308641,
+        "degree": 8,
+        "stair_endpoint": 1,
+        "proposals": 15456,
+        "conflicts": 2692,
+        "deadlocks": 670,
+        "rejection_rate": 0.17417184265010352
+      },
+      {
+        "node": 77,
+        "betweenness": 0.4558641975308642,
+        "degree": 8,
+        "stair_endpoint": 1,
+        "proposals": 32358,
+        "conflicts": 2332,
+        "deadlocks": 249,
+        "rejection_rate": 0.0720687310711416
+      },
+      {
+        "node": 37,
+        "betweenness": 0.1271604938271605,
+        "degree": 5,
+        "stair_endpoint": 0,
+        "proposals": 7745,
+        "conflicts": 892,
+        "deadlocks": 14,
+        "rejection_rate": 0.11517107811491285
+      },
+      {
+        "node": 57,
+        "betweenness": 0.10555555555555556,
+        "degree": 4,
+        "stair_endpoint": 0,
+        "proposals": 16098,
+        "conflicts": 540,
+        "deadlocks": 4,
+        "rejection_rate": 0.033544539694371975
+      },
+      {
+        "node": 34,
+        "betweenness": 0.19999999999999998,
+        "degree": 5,
+        "stair_endpoint": 0,
+        "proposals": 20279,
+        "conflicts": 490,
+        "deadlocks": 152,
+        "rejection_rate": 0.02416292716603383
+      },
+      {
+        "node": 23,
+        "betweenness": 0.09012345679012346,
+        "degree": 5,
+        "stair_endpoint": 0,
+        "proposals": 13378,
+        "conflicts": 460,
+        "deadlocks": 17,
+        "rejection_rate": 0.03438481088354014
+      },
+      {
+        "node": 15,
+        "betweenness": 0.3317901234567901,
+        "degree": 7,
+        "stair_endpoint": 1,
+        "proposals": 9928,
+        "conflicts": 440,
+        "deadlocks": 289,
+        "rejection_rate": 0.0443190975020145
+      }
+    ]
+  },
+  {
+    "robots": 5,
+    "pooled_regimes": [
+      "static",
+      "dynamic_edge_closure"
+    ],
+    "fidelity": [
+      {
+        "seed": 42,
+        "regime": "static",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 42,
+        "regime": "dynamic_edge_closure",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 43,
+        "regime": "static",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 43,
+        "regime": "dynamic_edge_closure",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 44,
+        "regime": "static",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 44,
+        "regime": "dynamic_edge_closure",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 45,
+        "regime": "static",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 45,
+        "regime": "dynamic_edge_closure",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 46,
+        "regime": "static",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 46,
+        "regime": "dynamic_edge_closure",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 47,
+        "regime": "static",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 47,
+        "regime": "dynamic_edge_closure",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 48,
+        "regime": "static",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 48,
+        "regime": "dynamic_edge_closure",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 49,
+        "regime": "static",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 49,
+        "regime": "dynamic_edge_closure",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 50,
+        "regime": "static",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 50,
+        "regime": "dynamic_edge_closure",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 51,
+        "regime": "static",
+        "rows": 1000,
+        "differences": 0
+      },
+      {
+        "seed": 51,
+        "regime": "dynamic_edge_closure",
+        "rows": 1000,
+        "differences": 0
+      }
+    ],
+    "total_proposals": 622748,
+    "total_conflict_involvements": 70605,
+    "total_deadlocks": 6538,
+    "stair_endpoint_nodes": [
+      15,
+      22,
+      40,
+      77,
+      81
+    ],
+    "stair_endpoint_conflict_share": 0.777976064018129,
+    "stair_endpoint_deadlock_share": 0.6615172835729581,
+    "betweenness_conflict_count_spearman": 0.7265263274173938,
+    "betweenness_rejection_rate_spearman": 0.6701718833505133,
+    "top_conflict_nodes": [
+      {
+        "node": 22,
+        "betweenness": 0.5854938271604938,
+        "degree": 6,
+        "stair_endpoint": 1,
+        "proposals": 43423,
+        "conflicts": 35317,
+        "deadlocks": 351,
+        "rejection_rate": 0.8133247357391244
+      },
+      {
+        "node": 40,
+        "betweenness": 0.6808641975308641,
+        "degree": 8,
+        "stair_endpoint": 1,
+        "proposals": 25227,
+        "conflicts": 9511,
+        "deadlocks": 2016,
+        "rejection_rate": 0.3770166884687042
+      },
+      {
+        "node": 77,
+        "betweenness": 0.4558641975308642,
+        "degree": 8,
+        "stair_endpoint": 1,
+        "proposals": 44173,
+        "conflicts": 8409,
+        "deadlocks": 825,
+        "rejection_rate": 0.19036515518529418
+      },
+      {
+        "node": 57,
+        "betweenness": 0.10555555555555556,
+        "degree": 4,
+        "stair_endpoint": 0,
+        "proposals": 23275,
+        "conflicts": 2133,
+        "deadlocks": 40,
+        "rejection_rate": 0.09164339419978518
+      },
+      {
+        "node": 15,
+        "betweenness": 0.3317901234567901,
+        "degree": 7,
+        "stair_endpoint": 1,
+        "proposals": 16101,
+        "conflicts": 1572,
+        "deadlocks": 1118,
+        "rejection_rate": 0.09763368734861189
+      },
+      {
+        "node": 37,
+        "betweenness": 0.1271604938271605,
+        "degree": 5,
+        "stair_endpoint": 0,
+        "proposals": 18635,
+        "conflicts": 1235,
+        "deadlocks": 14,
+        "rejection_rate": 0.06627314193721492
+      },
+      {
+        "node": 73,
+        "betweenness": 0.0,
+        "degree": 4,
+        "stair_endpoint": 0,
+        "proposals": 22579,
+        "conflicts": 1165,
+        "deadlocks": 47,
+        "rejection_rate": 0.05159661632490367
+      },
+      {
+        "node": 23,
+        "betweenness": 0.09012345679012346,
+        "degree": 5,
+        "stair_endpoint": 0,
+        "proposals": 20269,
+        "conflicts": 1080,
+        "deadlocks": 7,
+        "rejection_rate": 0.05328333908924959
+      }
+    ]
+  },
+  {
+    "robots": 10,
+    "pooled_regimes": [
+      "static",
+      "dynamic_edge_closure"
+    ],
+    "fidelity": [
+      {
+        "seed": 42,
+        "regime": "static",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 42,
+        "regime": "dynamic_edge_closure",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 43,
+        "regime": "static",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 43,
+        "regime": "dynamic_edge_closure",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 44,
+        "regime": "static",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 44,
+        "regime": "dynamic_edge_closure",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 45,
+        "regime": "static",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 45,
+        "regime": "dynamic_edge_closure",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 46,
+        "regime": "static",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 46,
+        "regime": "dynamic_edge_closure",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 47,
+        "regime": "static",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 47,
+        "regime": "dynamic_edge_closure",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 48,
+        "regime": "static",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 48,
+        "regime": "dynamic_edge_closure",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 49,
+        "regime": "static",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 49,
+        "regime": "dynamic_edge_closure",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 50,
+        "regime": "static",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 50,
+        "regime": "dynamic_edge_closure",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 51,
+        "regime": "static",
+        "rows": 2000,
+        "differences": 0
+      },
+      {
+        "seed": 51,
+        "regime": "dynamic_edge_closure",
+        "rows": 2000,
+        "differences": 0
+      }
+    ],
+    "total_proposals": 1795722,
+    "total_conflict_involvements": 174482,
+    "total_deadlocks": 16104,
+    "stair_endpoint_nodes": [
+      15,
+      22,
+      40,
+      77,
+      81
+    ],
+    "stair_endpoint_conflict_share": 0.6377334051650027,
+    "stair_endpoint_deadlock_share": 0.49074764033780427,
+    "betweenness_conflict_count_spearman": 0.8240005025171544,
+    "betweenness_rejection_rate_spearman": 0.7322299392963373,
+    "top_conflict_nodes": [
+      {
+        "node": 22,
+        "betweenness": 0.5854938271604938,
+        "degree": 6,
+        "stair_endpoint": 1,
+        "proposals": 86094,
+        "conflicts": 76100,
+        "deadlocks": 822,
+        "rejection_rate": 0.8839175784607523
+      },
+      {
+        "node": 40,
+        "betweenness": 0.6808641975308641,
+        "degree": 8,
+        "stair_endpoint": 1,
+        "proposals": 37839,
+        "conflicts": 17284,
+        "deadlocks": 3092,
+        "rejection_rate": 0.45677739897988845
+      },
+      {
+        "node": 77,
+        "betweenness": 0.4558641975308642,
+        "degree": 8,
+        "stair_endpoint": 1,
+        "proposals": 89776,
+        "conflicts": 13029,
+        "deadlocks": 1415,
+        "rejection_rate": 0.14512787381928355
+      },
+      {
+        "node": 15,
+        "betweenness": 0.3317901234567901,
+        "degree": 7,
+        "stair_endpoint": 1,
+        "proposals": 24967,
+        "conflicts": 4708,
+        "deadlocks": 2517,
+        "rejection_rate": 0.18856891096247047
+      },
+      {
+        "node": 23,
+        "betweenness": 0.09012345679012346,
+        "degree": 5,
+        "stair_endpoint": 0,
+        "proposals": 36939,
+        "conflicts": 3802,
+        "deadlocks": 104,
+        "rejection_rate": 0.102926446303365
+      },
+      {
+        "node": 57,
+        "betweenness": 0.10555555555555556,
+        "degree": 4,
+        "stair_endpoint": 0,
+        "proposals": 64932,
+        "conflicts": 3427,
+        "deadlocks": 127,
+        "rejection_rate": 0.05277829113534159
+      },
+      {
+        "node": 34,
+        "betweenness": 0.19999999999999998,
+        "degree": 5,
+        "stair_endpoint": 0,
+        "proposals": 53041,
+        "conflicts": 3139,
+        "deadlocks": 1369,
+        "rejection_rate": 0.0591806338492864
+      },
+      {
+        "node": 37,
+        "betweenness": 0.1271604938271605,
+        "degree": 5,
+        "stair_endpoint": 0,
+        "proposals": 32969,
+        "conflicts": 3007,
+        "deadlocks": 153,
+        "rejection_rate": 0.09120689132215111
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "graph": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\data\\processed\\graph.gpickle",
+  "robots": 3,
+  "training_seed": 48,
+  "test_seed": 33003,
+  "dynamic_seed": 44004,
+  "test_scenarios": 200,
+  "max_steps": 200,
+  "learning_during_evaluation": false,
+  "protocol": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\experiments\\seed_48\\robots_3\\evaluation\\fixed_test_protocol.json",
+  "dynamic_protocol": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\experiments\\seed_48\\robots_3\\evaluation\\dynamic_test_protocol.json",
+  "comparisons": {
+    "architecture": [
+      "local_independent_qlearning",
+      "centralized_qlearning",
+      "fedavg_qlearning"
+    ],
+    "federated_algorithms": [
+      "fedavg_qlearning",
+      "fedavg_dqn",
+      "fedavg_ppo"
+    ],
+    "robustness": [
+      "static",
+      "dynamic_edge_closure"
+    ]
+  }
+}

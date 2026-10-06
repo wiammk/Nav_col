@@ -1,0 +1,18 @@
+{
+  "phase": "pilot_ppo",
+  "seconds": 1826.7775394916534,
+  "results": [
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\pilot\\ppo\\lr_0.001",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\pilot\\ppo\\lr_0.0003",
+      "returncode": 0
+    },
+    {
+      "output": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_followup\\pilot\\ppo\\lr_0.0001",
+      "returncode": 0
+    }
+  ]
+}

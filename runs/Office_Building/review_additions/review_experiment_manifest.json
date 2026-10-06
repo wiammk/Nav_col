@@ -1,0 +1,253 @@
+{
+  "purpose": "post-review visit-weighted FedAvg and shortest-path baseline",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "visit_weighted_robot_counts": [
+    3,
+    5,
+    10
+  ],
+  "shortest_path_robot_counts": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "rounds": 20,
+  "episodes_per_round_per_client": 50,
+  "max_steps": 200,
+  "protocol_hashes": {
+    "1": {
+      "fixed_test_protocol.json": "b7d52d05015bdd99471085b24c6f6c4329c1eeca7c8be99600633590583fe98c",
+      "dynamic_test_protocol.json": "242291cec3690e1cebdde834ac997dd112141d15551fb455e25712bc456595f6"
+    },
+    "3": {
+      "fixed_test_protocol.json": "278a84fa171646056de307abffdb02478d148897c20ec0629fd1c9ff7856bcab",
+      "dynamic_test_protocol.json": "b8dac555023bee979bd2933d503d0e4f1c81e715fb8c840774fcfd53aa83fb33"
+    },
+    "5": {
+      "fixed_test_protocol.json": "b60bb11c52e70940ab00e03b5fd16c71de7b7a01c260b12e3b3dd1e46b8e5127",
+      "dynamic_test_protocol.json": "aebe3a067258c93b70a85ea036eca1f0191d9a0658ea225a9f00f0bed392c6be"
+    },
+    "10": {
+      "fixed_test_protocol.json": "fe0957a6946520e378c3f0c6efeea92f5cd695552c419c430812b38cf78877d6",
+      "dynamic_test_protocol.json": "e7e3f723cf0a97448b52ad48aca7c289576504338f237b427e89d75f3e480bf0"
+    }
+  },
+  "runs": [
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 42,
+      "robots": 3,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_42\\robots_3"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 42,
+      "robots": 5,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_42\\robots_5"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 42,
+      "robots": 10,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_42\\robots_10"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 43,
+      "robots": 3,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_43\\robots_3"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 43,
+      "robots": 5,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_43\\robots_5"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 43,
+      "robots": 10,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_43\\robots_10"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 44,
+      "robots": 3,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_44\\robots_3"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 44,
+      "robots": 5,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_44\\robots_5"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 44,
+      "robots": 10,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_44\\robots_10"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 45,
+      "robots": 3,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_45\\robots_3"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 45,
+      "robots": 5,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_45\\robots_5"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 45,
+      "robots": 10,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_45\\robots_10"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 46,
+      "robots": 3,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_46\\robots_3"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 46,
+      "robots": 5,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_46\\robots_5"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 46,
+      "robots": 10,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_46\\robots_10"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 47,
+      "robots": 3,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_47\\robots_3"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 47,
+      "robots": 5,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_47\\robots_5"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 47,
+      "robots": 10,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_47\\robots_10"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 48,
+      "robots": 3,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_48\\robots_3"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 48,
+      "robots": 5,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_48\\robots_5"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 48,
+      "robots": 10,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_48\\robots_10"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 49,
+      "robots": 3,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_49\\robots_3"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 49,
+      "robots": 5,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_49\\robots_5"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 49,
+      "robots": 10,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_49\\robots_10"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 50,
+      "robots": 3,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_50\\robots_3"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 50,
+      "robots": 5,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_50\\robots_5"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 50,
+      "robots": 10,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_50\\robots_10"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 51,
+      "robots": 3,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_51\\robots_3"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 51,
+      "robots": 5,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_51\\robots_5"
+    },
+    {
+      "variant": "visitation_weighted_fedavg_qlearning",
+      "seed": 51,
+      "robots": 10,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\visitation_weighted\\seed_51\\robots_10"
+    },
+    {
+      "variant": "weighted_shortest_path_policy",
+      "seed": null,
+      "robots": 1,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\shortest_path\\robots_1"
+    },
+    {
+      "variant": "weighted_shortest_path_policy",
+      "seed": null,
+      "robots": 3,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\shortest_path\\robots_3"
+    },
+    {
+      "variant": "weighted_shortest_path_policy",
+      "seed": null,
+      "robots": 5,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\shortest_path\\robots_5"
+    },
+    {
+      "variant": "weighted_shortest_path_policy",
+      "seed": null,
+      "robots": 10,
+      "output_dir": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Office_Building\\review_additions\\shortest_path\\robots_10"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "architecture": "local_independent",
+  "algorithm": "qlearning",
+  "graph_path": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Clinic_Architectural_width_corrected\\data\\processed\\graph.gpickle",
+  "graph_fingerprint": "e1b696035c275c3bee914d97ea22a4ff49ffec2937a7c1805c9eaa39eb50b9cc",
+  "n_robots": 10,
+  "seed": 42,
+  "episodes_per_robot": 1000,
+  "total_trajectories": 10000,
+  "total_transitions": 799364,
+  "training_collisions": 20827,
+  "elapsed_seconds": 385.1862398000003,
+  "estimated_communication_bytes": 0,
+  "max_steps": 200,
+  "heterogeneity": "iid",
+  "hyperparameters": {
+    "alpha": 0.1,
+    "gamma": 0.99,
+    "epsilon_start": 1.0,
+    "epsilon_min": 0.05,
+    "epsilon_decay": 0.995
+  },
+  "history_path": "C:\\Users\\asus\\Documents\\PFE\\Stage\\Projet\\Nav_col\\runs\\Clinic_Architectural_width_corrected\\review_followup\\local\\seed_42\\robots_10\\training.csv",
+  "models": [
+    "robot_0.pkl",
+    "robot_1.pkl",
+    "robot_2.pkl",
+    "robot_3.pkl",
+    "robot_4.pkl",
+    "robot_5.pkl",
+    "robot_6.pkl",
+    "robot_7.pkl",
+    "robot_8.pkl",
+    "robot_9.pkl"
+  ],
+  "model_size_bytes": 124507440
+}
