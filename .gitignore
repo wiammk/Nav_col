@@ -1,6 +1,5 @@
 .venv/
 venv/
-.codex_deps/
 .vscode/
 __pycache__/
 *.py[cod]
@@ -9,12 +8,11 @@ __pycache__/
 *.pem
 *.key
 data/raw_ifc/*.ifc
-camera_ready/build/
-*.aux
 *.log
-*.blg
-*.out
-*.synctex.gz
 runs/**/*.pkl
 runs/**/global_model*.pt
+runs/**/batch_report.json
+runs/**/*_batch_report.json
+runs/Office_Building/review_followup/**/run_metadata.json
+runs/Clinic_Architectural_width_corrected/review_followup/**/run_metadata.json
 *.restoring

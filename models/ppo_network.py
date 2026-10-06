@@ -1,34 +1,4 @@
-"""
-models/ppo_network.py
-=====================
-Étape 3 — Actor-Critic pour PPO.
-
-Architecture :
-    ┌────────────────────────────────────────────────────────┐
-    │   state = cat(emb_current, emb_goal)  [2·emb_dim]     │
-    │                    ↓                                    │
-    │             backbone MLP [Tanh]                         │
-    │                    ↓                                    │
-    │   ┌────────────────┴──────────────────┐               │
-    │   ACTEUR                           CRITIQUE            │
-    │   logit_k = MLP(shared || emb_k)   V(s) = MLP(shared) │
-    │   π(a|s) = softmax(logits)         [scalaire]          │
-    └────────────────────────────────────────────────────────┘
-
-Pourquoi Tanh et non ReLU dans le backbone ?
-    PPO est sensible aux grandes valeurs de gradient.
-    Tanh borne les activations dans [-1, 1] → plus stable.
-
-Sortie de forward() :
-    distribution Categorical + valeur V(s)
-
-Usage :
-    from models.ppo_network import PPOActorCritic, build_ppo
-    model = build_ppo(emb_dim=64)
-    dist, value = model(emb_current, emb_goal, neighbor_embs)
-    action = dist.sample()
-    logp   = dist.log_prob(action)
-"""
+"""PPO actor-critic, generalized advantage estimation and clipped surrogate loss."""
 
 import logging
 import torch
@@ -43,10 +13,6 @@ log = logging.getLogger(__name__)
 DEFAULT_EMB_DIM    = 64
 DEFAULT_HIDDEN_DIM = 128
 
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 1 — PPO ACTOR-CRITIC
-# ═════════════════════════════════════════════════════════════════════════════
 
 class PPOActorCritic(nn.Module):
     """
@@ -75,7 +41,6 @@ class PPOActorCritic(nn.Module):
         self.context_dim = 1
         state_dim       = emb_dim * 2   # [current || goal]
 
-        # ── Backbone partagé ──────────────────────────────────────────────────
         self.backbone = nn.Sequential(
             nn.Linear(state_dim, hidden_dim),
             nn.Tanh(),
@@ -83,7 +48,6 @@ class PPOActorCritic(nn.Module):
             nn.Tanh(),
         )
 
-        # ── Acteur : logit par voisin ─────────────────────────────────────────
         # Prend [shared_emb || action_emb] → logit scalaire
         self.actor_head = nn.Sequential(
             nn.Linear(hidden_dim + emb_dim + self.context_dim, hidden_dim // 2),
@@ -91,7 +55,6 @@ class PPOActorCritic(nn.Module):
             nn.Linear(hidden_dim // 2, 1),
         )
 
-        # ── Critique : V(s) ───────────────────────────────────────────────────
         self.critic_head = nn.Sequential(
             nn.Linear(hidden_dim, hidden_dim // 2),
             nn.Tanh(),
@@ -118,7 +81,6 @@ class PPOActorCritic(nn.Module):
                     nn.init.orthogonal_(m.weight, gain=gain)
                     nn.init.zeros_(m.bias)
 
-    # ── Forward complet ───────────────────────────────────────────────────────
 
     def forward(
         self,
@@ -143,14 +105,11 @@ class PPOActorCritic(nn.Module):
         g = goal_emb.view(self.emb_dim)
         K = neighbor_embs.shape[0]
 
-        # État + backbone
         state  = torch.cat([c, g], dim=0)   # [2·emb]
         shared = self.backbone(state)        # [hidden_dim]
 
-        # Valeur critique
         value  = self.critic_head(shared).squeeze(-1)   # scalaire
 
-        # Logits acteur (un par voisin)
         shared_exp = shared.unsqueeze(0).expand(K, -1)            # [K, hidden]
         if neighbor_context is None:
             neighbor_context = torch.zeros(
@@ -168,7 +127,6 @@ class PPOActorCritic(nn.Module):
         dist = Categorical(logits=logits)
         return dist, value
 
-    # ── Sélection d'action ────────────────────────────────────────────────────
 
     def get_action(
         self,
@@ -233,17 +191,12 @@ class PPOActorCritic(nn.Module):
             value.expand(actions.shape[0]),
         )
 
-    # ── Résumé ────────────────────────────────────────────────────────────────
 
     def summary(self) -> str:
         params = sum(p.numel() for p in self.parameters() if p.requires_grad)
         return (f"PPOActorCritic(emb={self.emb_dim}, "
                 f"hidden={self.hidden_dim})  params={params:,}")
 
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 2 — CALCUL DES AVANTAGES GAE
-# ═════════════════════════════════════════════════════════════════════════════
 
 def compute_gae(
     rewards  : torch.Tensor,
@@ -288,10 +241,6 @@ def compute_gae(
 
     return advantages, returns
 
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 3 — PERTE PPO-CLIP
-# ═════════════════════════════════════════════════════════════════════════════
 
 def ppo_loss(
     log_probs_new : torch.Tensor,
@@ -353,10 +302,6 @@ def ppo_loss(
     return loss, metrics
 
 
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 4 — FACTORY + SAVE/LOAD
-# ═════════════════════════════════════════════════════════════════════════════
-
 def build_ppo(
     emb_dim    : int  = DEFAULT_EMB_DIM,
     hidden_dim : int  = DEFAULT_HIDDEN_DIM,
@@ -387,10 +332,6 @@ def load_ppo(path: Path, device: str = "cpu") -> PPOActorCritic:
     return model.to(device)
 
 
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 5 — TEST
-# ═════════════════════════════════════════════════════════════════════════════
-
 def _test():
     log.info("🧪 Test PPOActorCritic + GAE + PPO Loss")
     EMB, K, T = 64, 5, 16
@@ -402,7 +343,6 @@ def _test():
     model = PPOActorCritic(emb_dim=EMB, hidden_dim=128, ortho_init=True)
     log.info(f"  {model.summary()}")
 
-    # Forward
     dist, value = model(emb_cur, emb_goal, emb_nb)
     assert dist.probs.shape == (K,),        f"probs shape: {dist.probs.shape}"
     assert dist.probs.sum().item() - 1 < 1e-5, "Probs ne somment pas à 1 !"
@@ -410,13 +350,11 @@ def _test():
     log.info(f"  Probs K={K} : {dist.probs.detach().round(decimals=3).tolist()}")
     log.info(f"  V(s) = {value.item():.4f}")
 
-    # get_action
     a, logp, ent, v = model.get_action(emb_cur, emb_goal, emb_nb, greedy=False)
     assert 0 <= a < K
     assert logp.ndim == 0
     log.info(f"  Action={a}  logp={logp.item():.4f}  ent={ent.item():.4f}")
 
-    # GAE
     rewards  = torch.rand(T)
     values_t = torch.rand(T + 1)
     dones    = torch.zeros(T);  dones[-1] = 1.0
@@ -425,7 +363,6 @@ def _test():
     assert abs(adv.mean().item()) < 0.1, "Avantages non normalisés !"
     log.info(f"  GAE : adv_mean={adv.mean():.4f}  ret_mean={ret.mean():.4f}")
 
-    # PPO Loss
     lp_old = torch.randn(T)
     lp_new = torch.randn(T)
     v_new  = torch.randn(T)
@@ -435,7 +372,6 @@ def _test():
     log.info(f"  PPO Loss = {loss.item():.4f}  "
              f"clip_frac={metrics['clip_frac']:.2f}")
 
-    # Sauvegarde / chargement
     import tempfile, os
     with tempfile.NamedTemporaryFile(suffix=".pt", delete=False) as f:
         p = Path(f.name)

@@ -1,26 +1,4 @@
-"""
-federated/server.py
-===================
-Serveur FedAvg — commun pour Q-Learning, DQN et PPO.
-
-Pourquoi un seul FedAvg pour les 3 modèles ?
-    La formule est identique : global = Σ(n_i × w_i) / Σ(n_i)
-    Seul le format change :
-      - Q-Learning : numpy array   shape (n_nodes, n_nodes, max_degree)
-      - DQN / PPO  : dict PyTorch  {layer_name → tensor}
-    Le serveur détecte automatiquement le format et agrège.
-
-Flux FedAvg (1 round) :
-    1. broadcast   : serveur envoie le modèle global à chaque robot
-    2. local_train : chaque robot s'entraîne N épisodes localement
-    3. collect     : chaque robot envoie ses poids + n_samples au serveur
-    4. aggregate   : serveur calcule la moyenne pondérée
-    5. → round suivant
-
-Usage :
-    server = FedAvgServer()
-    server.run(clients, n_rounds=10, episodes_per_round=50)
-"""
+"""FedAvg aggregation and optional visit-count weighting for tabular policies."""
 
 import copy
 import logging
@@ -35,9 +13,6 @@ if TYPE_CHECKING:
 
 log = logging.getLogger(__name__)
 
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 1 — AGRÉGATION (cœur mathématique)
-# ═════════════════════════════════════════════════════════════════════════════
 
 def fedavg(
     weights_list : List[Any],
@@ -69,14 +44,12 @@ def fedavg(
         n_samples = [1] * len(weights_list)
         total     = len(weights_list)
 
-    # ── Cas Q-Learning : numpy arrays ─────────────────────────────────────────
     if isinstance(weights_list[0], np.ndarray):
         global_w = np.zeros_like(weights_list[0], dtype=np.float64)
         for w, n in zip(weights_list, n_samples):
             global_w += (n / total) * w.astype(np.float64)
         return global_w.astype(weights_list[0].dtype)
 
-    # ── Cas DQN / PPO : dicts de tenseurs PyTorch ─────────────────────────────
     if isinstance(weights_list[0], dict):
         try:
             import torch
@@ -125,10 +98,6 @@ def visitation_weighted_q_aggregate(
     return result.astype(q_tables[0].dtype)
 
 
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 2 — SERVEUR FEDAVG
-# ═════════════════════════════════════════════════════════════════════════════
-
 class FedAvgServer:
     """
     Serveur central FedAvg.
@@ -154,7 +123,6 @@ class FedAvgServer:
         self.round_history  : List[dict]     = []
         self._round         : int            = 0
 
-    # ── Interface principale ──────────────────────────────────────────────────
 
     def run(
         self,
@@ -184,7 +152,6 @@ class FedAvgServer:
         log.info(f"   Algorithme : {clients[0].algo_name}  |  FedAvg")
         log.info("=" * 55)
 
-        # Initialiser le modèle global depuis le premier client
         self.global_weights = copy.deepcopy(clients[0].get_weights())
 
         for r in range(1, n_rounds + 1):
@@ -211,7 +178,6 @@ class FedAvgServer:
         log.info("✅ Entraînement fédéré terminé")
         return self.round_history
 
-    # ── Round unique ──────────────────────────────────────────────────────────
 
     def _run_round(
         self,
@@ -222,11 +188,9 @@ class FedAvgServer:
     ) -> dict:
         """Exécute un round complet : broadcast → train → collect → aggregate."""
 
-        # 1. Broadcast : envoyer le modèle global à chaque robot
         for client in clients:
             client.set_weights(copy.deepcopy(self.global_weights))
 
-        # 2. Entraînement local (chaque robot s'entraîne indépendamment)
         if multi_env is not None:
             from federated.multi_robot_training import train_clients_multi_robot
             local_results = train_clients_multi_robot(
@@ -238,13 +202,11 @@ class FedAvgServer:
                 for client in clients
             ]
 
-        # 3. Collect : récupérer poids locaux + n_samples
         weights_list = [client.get_weights()   for client in clients]
         n_samples    = [r["n_episodes"]        for r in local_results]
         n_transitions = [r.get("n_transitions", 0) for r in local_results]
 
-        # 4. Aggregate. Keep standard FedAvg as the default and expose the
-        # visit-weighted Q-table variant as a separate review experiment.
+        # Apply visit counts per Q-table entry when the optional mode is selected.
         if (
             self.q_aggregation == "visitation_weighted"
             and clients[0].algo_name == "qlearning"
@@ -258,7 +220,6 @@ class FedAvgServer:
         else:
             self.global_weights = fedavg(weights_list, n_samples)
 
-        # 5. Métriques du round
         all_rewards   = [r for res in local_results for r in res.get("rewards", [])]
         all_successes = [r for res in local_results for r in res.get("successes", [])]
 
@@ -300,20 +261,17 @@ class FedAvgServer:
             result[metric] = float(np.mean(values)) if values else 0.0
         return result
 
-    # ── Sauvegarde ────────────────────────────────────────────────────────────
 
     def _save_global(self, round_n: int, final: bool = False) -> None:
         self.save_dir.mkdir(parents=True, exist_ok=True)
         suffix = "final" if final else f"round_{round_n:03d}"
 
-        # Q-table (numpy)
         if isinstance(self.global_weights, np.ndarray):
             import pickle
             path = self.save_dir / f"global_qtable_{suffix}.pkl"
             with open(path, "wb") as f:
                 pickle.dump(self.global_weights, f)
 
-        # DQN/PPO state_dict (torch)
         elif isinstance(self.global_weights, dict):
             import torch
             path = self.save_dir / f"global_model_{suffix}.pt"

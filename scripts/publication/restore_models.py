@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 def main():
-    manifest = json.loads((ROOT / "PUBLICATION_MANIFEST.json").read_text(encoding="utf-8"))
+    manifest = json.loads((ROOT / "artifacts" / "manifest.json").read_text(encoding="utf-8"))
     grouped = {}
     for record in manifest["archived_models"]:
         grouped.setdefault(record["archive"], []).append(record)

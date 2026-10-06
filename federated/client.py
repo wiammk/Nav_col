@@ -1,29 +1,4 @@
-"""
-federated/client.py
-===================
-FedClient — interface commune pour Q-Learning, DQN et PPO.
-
-Pourquoi une seule classe ?
-    Le serveur FedAvg n'a besoin que de 3 opérations :
-      get_weights()         → retourner les poids du modèle local
-      set_weights(w)        → charger les poids globaux reçus
-      train_local(episodes) → s'entraîner N épisodes, retourner métriques
-
-    Que le modèle soit une Q-table ou un réseau de neurones, ces 3
-    méthodes suffisent. FedClient les adapte automatiquement.
-
-Classes disponibles :
-    QLearningClient   : wrappeur pour QLearningAgent
-    DQNClient         : wrappeur pour le DQN standard
-    PPOClient         : wrappeur pour PPOActorCritic
-    make_client()     : factory qui retourne le bon client selon l'algo
-
-Usage :
-    from federated.client import make_client
-    client = make_client("qlearning", env, robot_id=0)
-    client = make_client("dqn",       env, robot_id=1)
-    client = make_client("ppo",       env, robot_id=2)
-"""
+"""Q-learning, DQN and PPO clients for local training and parameter exchange."""
 
 import logging
 import numpy as np
@@ -31,10 +6,6 @@ from typing import Any
 
 log = logging.getLogger(__name__)
 
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 1 — BASE CLIENT
-# ═════════════════════════════════════════════════════════════════════════════
 
 class FedClient:
     """
@@ -114,10 +85,6 @@ class FedClient:
         }
 
 
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 2 — CLIENT Q-LEARNING
-# ═════════════════════════════════════════════════════════════════════════════
-
 class QLearningClient(FedClient):
     """
     FedClient pour Q-Learning tabulaire.
@@ -130,9 +97,9 @@ class QLearningClient(FedClient):
         self,
         env,
         robot_id   : int   = 0,
-        alpha      : float = 0.1,    # taux d'apprentissage
-        gamma      : float = 0.99,   # discount
-        epsilon    : float = 1.0,    # exploration initiale
+        alpha      : float = 0.1,
+        gamma      : float = 0.99,
+        epsilon    : float = 1.0,
         epsilon_min: float = 0.05,
         epsilon_decay: float = 0.995,
         seed: int = 0,
@@ -151,7 +118,6 @@ class QLearningClient(FedClient):
         self.epsilon_decay  = epsilon_decay
         self.rng = np.random.default_rng(seed)
 
-    # ── Interface FedClient ───────────────────────────────────────────────────
 
     def get_weights(self) -> np.ndarray:
         """Retourne une copie de la Q-table."""
@@ -207,7 +173,6 @@ class QLearningClient(FedClient):
             "epsilon"   : self.epsilon,
         }
 
-    # ── Q-Learning interne ────────────────────────────────────────────────────
 
     def _choose_action(self, cur, tgt, mask: np.ndarray) -> int:
         valid = [i for i, m in enumerate(mask) if m == 1]
@@ -246,10 +211,6 @@ class QLearningClient(FedClient):
         self.Q[ci, ti, action] += self.alpha * (target - self.Q[ci, ti, action])
         self.visit_counts[ci, ti, action] += 1
 
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 3 — CLIENT DQN
-# ═════════════════════════════════════════════════════════════════════════════
 
 class DQNClient(FedClient):
     """
@@ -305,10 +266,6 @@ class DQNClient(FedClient):
     def greedy_action(self, obs: dict) -> int:
         return self.agent.act(obs, greedy=True)
 
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 4 — CLIENT PPO
-# ═════════════════════════════════════════════════════════════════════════════
 
 class PPOClient(FedClient):
     """
@@ -369,10 +326,6 @@ class PPOClient(FedClient):
         action, _, _ = self.agent.act(obs, greedy=True)
         return action
 
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 5 — FACTORY
-# ═════════════════════════════════════════════════════════════════════════════
 
 def make_client(
     algo    : str,

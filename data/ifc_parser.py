@@ -1,21 +1,4 @@
-"""
-data/ifc_parser.py
-==================
-Étape 1 du pipeline de données.
-
-Lit un fichier IFC et extrait :
-  - Les espaces (IfcSpace)         → nœuds  → nodes.csv
-  - Les connexions (portes, escaliers, couloirs) → arêtes → edges.csv
-
-Stratégie de connexion (3 niveaux) :
-  1. IfcRelSpaceBoundary  : connexions via portes
-  2. Escaliers            : connexions inter-étages adjacents UNIQUEMENT
-  3. Proximité spatiale   : toujours appliquée en intra-étage
-
-Usage :
-    python data/ifc_parser.py --input data/raw_ifc/Office Building.ifc
-    python data/ifc_parser.py --synthetic --floors 3 --rooms 8
-"""
+"""Extract IFC spaces and door, stair and proximity links for navigation graphs."""
 
 import os
 import sys
@@ -45,7 +28,6 @@ try:
 except ImportError:
     _IFC_AVAILABLE = False
 
-# ─── Logging ─────────────────────────────────────────────────────────────────
 logging.basicConfig(
     level  = logging.INFO,
     format = "%(asctime)s [%(levelname)s] %(message)s",
@@ -53,8 +35,6 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-# ─── Chemins par défaut ───────────────────────────────────────────────────────
-# ─── Constantes ───────────────────────────────────────────────────────────────
 PROXIMITY_THRESHOLD = 8.0    # distance max (m) entre centroïdes pour edge de proximité
 MAX_PROXIMITY_NEIGHBORS = 3  # garde les approximations géométriques locales
 FLOOR_HEIGHT        = 4.0    # utilisée pour floor_index dans extract_spaces()
@@ -83,10 +63,6 @@ SI_PREFIX_SCALE = {
     "ATTO": 1e-18,
 }
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  SECTION 1 : UTILITAIRES IFC
-# ─────────────────────────────────────────────────────────────────────────────
 
 def get_length_unit_scale(ifc_file) -> float:
     """
@@ -290,10 +266,6 @@ def get_door_width(ifc_file, door, unit_scale: float = 1.0) -> float:
     return 0.9
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-#  SECTION 2 : EXTRACTION DES NŒUDS
-# ─────────────────────────────────────────────────────────────────────────────
-
 def extract_spaces(ifc_file, unit_scale: float = 1.0) -> Dict[str, dict]:
     spaces      = ifc_file.by_type("IfcSpace")
     log.info(f"  {len(spaces)} espaces IfcSpace trouvés")
@@ -331,10 +303,6 @@ def extract_spaces(ifc_file, unit_scale: float = 1.0) -> Dict[str, dict]:
     log.info(f"  {len(spaces_data)} espaces extraits, {skipped} ignorés")
     return spaces_data
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  SECTION 3 : EXTRACTION DES ARÊTES
-# ─────────────────────────────────────────────────────────────────────────────
 
 def euclidean_distance(d1: dict, d2: dict) -> float:
     return math.sqrt(
@@ -674,10 +642,6 @@ def extract_proximity_connections(
     return edges
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-#  SECTION 4 : SAUVEGARDE CSV
-# ─────────────────────────────────────────────────────────────────────────────
-
 def save_nodes_csv(spaces_data: Dict, path: Path) -> pd.DataFrame:
     rows = [
         {
@@ -891,10 +855,6 @@ def save_edges_csv(edges: List[dict], path: Path) -> pd.DataFrame:
     return df
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-#  SECTION 5 : GÉNÉRATEUR SYNTHÉTIQUE
-# ─────────────────────────────────────────────────────────────────────────────
-
 class SyntheticBuildingGenerator:
     def __init__(self, n_floors=2, rooms_per_floor=6,
                  floor_height=FLOOR_HEIGHT, room_spacing=12.0, seed=42):
@@ -997,10 +957,6 @@ class SyntheticBuildingGenerator:
                  f"{len(edges)} arêtes, {self.n_floors} étages")
         return spaces_data, edges
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  SECTION 6 : PIPELINE PRINCIPAL
-# ─────────────────────────────────────────────────────────────────────────────
 
 def parse_ifc(
     ifc_path: str,

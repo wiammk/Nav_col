@@ -1,11 +1,4 @@
-"""
-models/__init__.py
-==================
-Exports publics du package models/.
-
-    from models import GCNEncoder, DQN, DQNNetwork, PPOActorCritic
-    from models import build_dqn, build_ppo, build_gcn
-"""
+"""Public exports for graph encoders and navigation networks."""
 
 from models.gcn_model import (
     GCNEncoder,

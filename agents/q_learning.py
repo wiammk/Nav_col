@@ -1,4 +1,5 @@
-# agents/q_learning.py
+"""Masked tabular Q-learning over current-node and target-node indices."""
+
 import os
 import numpy as np
 import pickle
@@ -56,7 +57,6 @@ class QLearningAgent:
     def _decay_epsilon(self):
         if self.epsilon_step < self.epsilon_decay_steps:
             frac = self.epsilon_step / max(1, self.epsilon_decay_steps)
-            # interpolation linéaire entre start et end
             self.epsilon = self.epsilon_start + frac * (self.epsilon_end - self.epsilon_start)
             self.epsilon_step += 1
         else:
@@ -80,14 +80,11 @@ class QLearningAgent:
             # fallback de sécurité (ne devrait pas arriver si l'env est bien défini)
             return 0
 
-        # Décroissance de epsilon
         self._decay_epsilon()
 
-        # Exploration
         if self.rng.random() < self.epsilon:
             return int(self.rng.choice(valid_actions))
 
-        # Exploitation : max Q(s,a) parmi les actions valides
         s_i, t_i = self.state_to_idx(current_idx, target_idx)
         qvals = self.Q[s_i, t_i]  # (max_degree,)
 

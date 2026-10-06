@@ -1,36 +1,4 @@
-"""
-environment/graph_env.py
-========================
-Étape 3 du pipeline.
-
-Fournit deux classes :
-
-    GraphEnv        : un seul robot, interface Gymnasium standard.
-                      reset() → obs dict
-                      step(action) → obs, reward, terminated, truncated, info
-
-    MultiRobotEnv   : N robots indépendants, chacun sur sa propre GraphEnv.
-                      reset() → list[obs]
-                      step(actions) → list[obs], list[reward], list[bool], list[info]
-                      → SEUL pattern compatible avec FedAvg (un modèle par robot)
-
-Observation par robot :
-    {
-      "state"     : [2 * emb_dim]         # cat(emb_courant, emb_cible)
-      "neighbors" : [max_degree, emb_dim] # embeddings des voisins (paddé à 0)
-      "mask"      : [max_degree]          # 1 = voisin valide, 0 = padding
-    }
-
-Reward :
-    +goal_reward      si arrivé à destination
-    +shaping          si on se rapproche (distance graphe ↓)
-    -step_penalty     à chaque pas
-    -risk_factor*risk pénalité de la pièce visitée
-    -stuck_penalty    si bloqué ≥ stuck_limit steps
-
-Usage :
-    python environment/graph_env.py --graph runs/Office_Building/data/processed/graph.gpickle --robots 3
-"""
+"""Graph navigation environments with action masks, occupancy and conflict resolution."""
 
 import pickle
 import logging
@@ -54,14 +22,9 @@ except ImportError:
 
 log = logging.getLogger(__name__)
 
-# ─── Chemins par défaut ───────────────────────────────────────────────────────
 ENV_DIR       = Path(__file__).parent
 GRAPH_PKL     = ENV_DIR.parent / "data" / "processed" / "graph.gpickle"
 
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 1 — GRAPHENV (un seul robot)
-# ═════════════════════════════════════════════════════════════════════════════
 
 class GraphEnv(gym.Env):
     """
@@ -101,7 +64,6 @@ class GraphEnv(gym.Env):
     ):
         super().__init__()
 
-        # ── Graphe ────────────────────────────────────────────────────────────
         self.graph    = graph
         self.emb = {
             node: np.asarray(value, dtype=np.float32).copy()
@@ -124,14 +86,12 @@ class GraphEnv(gym.Env):
             for n in self.nodes
         }
 
-        # ── Dimensions ────────────────────────────────────────────────────────
         sample_emb      = next(iter(embeddings.values()))
         self.emb_dim    = int(sample_emb.shape[0])
         self.max_degree = max(len(v) for v in self.neighbors_map.values())
         if self.max_degree == 0:
             self.max_degree = 1
 
-        # ── Espaces Gymnasium ─────────────────────────────────────────────────
         self.observation_space = spaces.Dict({
             "state"    : spaces.Box(
                 low=-np.inf, high=np.inf,
@@ -148,7 +108,6 @@ class GraphEnv(gym.Env):
         })
         self.action_space = spaces.Discrete(self.max_degree)
 
-        # ── Config ────────────────────────────────────────────────────────────
         self.max_steps  = max_steps
         cfg             = dict(self.REWARD_DEFAULTS)
         if reward_cfg:
@@ -158,7 +117,6 @@ class GraphEnv(gym.Env):
         self.blocked_nodes = set()
         self._sp_dist_cache = {}
 
-        # ── Distances les plus courtes (précalculées) ─────────────────────────
         try:
             available = graph.copy()
             available.remove_edges_from([
@@ -170,11 +128,9 @@ class GraphEnv(gym.Env):
         except Exception:
             self._sp = None
 
-        # ── RNG + état ────────────────────────────────────────────────────────
         self.np_random = np.random.default_rng(seed)
         self._state_init()
 
-    # ── Utilitaires internes ──────────────────────────────────────────────────
 
     def _state_init(self):
         self.current_node : Any  = None
@@ -264,7 +220,6 @@ class GraphEnv(gym.Env):
             "occupancy": np.zeros(self.max_degree, dtype=np.float32),
         }
 
-    # ── API Gymnasium ─────────────────────────────────────────────────────────
 
     def reset(
         self,
@@ -292,13 +247,11 @@ class GraphEnv(gym.Env):
             closed_edges=options.get("closed_edges"),
         )
 
-        # Nœud de départ
         if start is not None and start in self.node2idx:
             self.current_node = start
         else:
             self.current_node = self.np_random.choice(self.nodes)
 
-        # Nœud cible ≠ départ
         if target is not None and target in self.node2idx and target != self.current_node:
             self.target_node = target
         else:
@@ -332,11 +285,9 @@ class GraphEnv(gym.Env):
             and self.edge_is_available(self.current_node, nbs[action])
         )
 
-        # ── Déplacement ───────────────────────────────────────────────────────
         next_node = nbs[action] if valid else self.current_node
         moved     = next_node != self.current_node
 
-        # ── Récompense ────────────────────────────────────────────────────────
         reward = self.rcfg["step_penalty"]
 
         # Shaping : distance graphe → récompense si on se rapproche
@@ -349,7 +300,6 @@ class GraphEnv(gym.Env):
         ) * self.rcfg["shaping_factor"]
         reward  += shaping
 
-        # Risque de la pièce visitée
         if moved:
             risk = float(self.graph.nodes[next_node].get("risk", 0.0))
             reward -= self.rcfg["risk_factor"] * risk
@@ -358,7 +308,6 @@ class GraphEnv(gym.Env):
                 self.graph.get_edge_data(self.current_node, next_node, default={}).get("weight", 1.0)
             )
 
-        # Stuck
         if moved:
             self._stuck_count = 0
         else:
@@ -367,18 +316,15 @@ class GraphEnv(gym.Env):
                 reward         += self.rcfg["stuck_penalty"]
                 self._terminated = True
 
-        # Arrivée
         terminated = self._terminated
         if next_node == self.target_node:
             reward    += self.rcfg["goal_reward"]
             terminated = True
 
-        # Mise à jour état
         self.current_node = next_node
         self._prev_dist   = new_dist
         self.path_taken.append(next_node)
 
-        # Troncature (max steps)
         truncated = self._step_count >= self.max_steps
 
         self._terminated = terminated
@@ -406,7 +352,6 @@ class GraphEnv(gym.Env):
     def close(self):
         pass
 
-    # ── Propriétés utiles pour les agents ────────────────────────────────────
 
     @property
     def n_actions(self) -> int:
@@ -422,10 +367,6 @@ class GraphEnv(gym.Env):
             if self.edge_is_available(n, neighbor)
         ]
 
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 2 — MULTIROBOT ENV (N robots indépendants)
-# ═════════════════════════════════════════════════════════════════════════════
 
 class MultiRobotEnv:
     """
@@ -470,7 +411,6 @@ class MultiRobotEnv:
             for i in range(n_robots)
         ]
 
-        # Expose les propriétés utiles du premier env
         self.emb_dim        = self.envs[0].emb_dim
         self.max_degree     = self.envs[0].max_degree
         self.n_actions      = self.envs[0].n_actions
@@ -609,7 +549,6 @@ class MultiRobotEnv:
         dones = []
         infos = []
         for robot_id, (env, action) in enumerate(zip(self.envs, resolved_actions)):
- # Robot déjà terminé
             if env._terminated or env._truncated:
                 obs_list.append(env._build_obs())
                 rewards.append(0.0)
@@ -659,15 +598,10 @@ class MultiRobotEnv:
         for env in self.envs:
             env.close()
 
-    # ── Accès direct à un robot ───────────────────────────────────────────────
 
     def get_env(self, robot_id: int) -> GraphEnv:
         return self.envs[robot_id]
 
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 3 — FACTORY
-# ═════════════════════════════════════════════════════════════════════════════
 
 def make_env(
     graph_path : str,
@@ -694,13 +628,11 @@ def make_env(
     import sys
     sys.path.insert(0, str(Path(__file__).parent.parent))
 
-    # Charger le graphe
     with open(graph_path, "rb") as f:
         G = pickle.load(f)
 
     log.info(f"  Graphe chargé : {G.number_of_nodes()} nœuds, {G.number_of_edges()} arêtes")
 
-    # Encoder avec GCN
     try:
         import torch
         from models.gcn_model import GCNEncoder, GraphDataConverter, NODE_FEAT_DIM
@@ -777,7 +709,6 @@ def make_env(
         rng      = np.random.default_rng(0)
         emb_dict = {n: rng.standard_normal(emb_dim).astype(np.float32) for n in nodes}
 
-    # Créer l'env
     if n_robots == 1:
         env = GraphEnv(G, emb_dict, max_steps=max_steps, reward_cfg=reward_cfg, seed=seed)
     else:
@@ -797,10 +728,6 @@ def make_env(
 
     return env, G, emb_dict
 
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 4 — TEST
-# ═════════════════════════════════════════════════════════════════════════════
 
 def _test(graph_path: str, n_robots: int = 3, n_episodes: int = 3):
     logging.basicConfig(

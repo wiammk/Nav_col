@@ -1,20 +1,4 @@
-"""
-data/graph_builder.py
-=====================
-Étape 2 du pipeline de données.
-
-Lit nodes.csv + edges.csv et construit un graphe NetworkX avec :
-  - Vérification de connexité (+ réparation automatique)
-  - Calcul des centralités (betweenness, closeness, degree)
-  - Normalisation des features
-  - Sauvegarde en graph.gpickle + nodes_with_centrality.csv
-  - Rapport de qualité
-  - Visualisation propre : étages côte à côte
-
-Usage :
-    python data/graph_builder.py
-    python data/graph_builder.py --visualize
-"""
+"""Build, characterize and visualize navigation graphs from node and edge tables."""
 
 import math
 import pickle
@@ -38,7 +22,6 @@ from config.run_layout import latest_run_layout
 
 configure_console_encoding()
 
-# ─── Logging ─────────────────────────────────────────────────────────────────
 logging.basicConfig(
     level  = logging.INFO,
     format = "%(asctime)s [%(levelname)s] %(message)s",
@@ -46,14 +29,12 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-# ─── Chemins ─────────────────────────────────────────────────────────────────
 DATA_DIR      = Path(__file__).parent
 PROCESSED_DIR = latest_run_layout().processed
 NODES_CSV     = PROCESSED_DIR / "nodes.csv"
 EDGES_CSV     = PROCESSED_DIR / "edges.csv"
 GRAPH_PKL     = PROCESSED_DIR / "graph.gpickle"
 
-# ─── Couleurs ─────────────────────────────────────────────────────────────────
 TYPE_COLORS = {
     "room"    : "#4A90D9",
     "corridor": "#7ED321",
@@ -122,10 +103,6 @@ EDGE_GCN_WEIGHTS = {
     "repair": 0.15,
 }
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  CHARGEMENT
-# ─────────────────────────────────────────────────────────────────────────────
 
 def load_and_validate_nodes(path: Path) -> pd.DataFrame:
     log.info(f" ---Chargement nodes.csv--- : {path}")
@@ -262,10 +239,6 @@ def validate_spatial_quality(
     )
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-#  CONSTRUCTION
-# ─────────────────────────────────────────────────────────────────────────────
-
 def build_graph(df_nodes: pd.DataFrame, df_edges: pd.DataFrame) -> nx.Graph:
     G = nx.Graph()
 
@@ -296,10 +269,6 @@ def build_graph(df_nodes: pd.DataFrame, df_edges: pd.DataFrame) -> nx.Graph:
     log.info(f"  Graphe initial : {G.number_of_nodes()} nœuds, {G.number_of_edges()} arêtes")
     return G
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  CONNEXITÉ
-# ─────────────────────────────────────────────────────────────────────────────
 
 def ensure_connectivity(G: nx.Graph) -> nx.Graph:
     if nx.is_connected(G):
@@ -346,10 +315,6 @@ def ensure_connectivity(G: nx.Graph) -> nx.Graph:
     log.info("  ✅ Graphe connexe après réparation")
     return G
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  CENTRALITÉS & FEATURES
-# ─────────────────────────────────────────────────────────────────────────────
 
 def compute_centralities(G: nx.Graph) -> nx.Graph:
     log.info(" ---Calcul des centralités---")
@@ -410,10 +375,6 @@ def add_graph_metadata(G: nx.Graph, source: str = "ifc") -> nx.Graph:
     return G
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-#  RAPPORT
-# ─────────────────────────────────────────────────────────────────────────────
-
 def print_graph_report(G: nx.Graph):
     sep = "=" * 55
     log.info(sep)
@@ -464,10 +425,6 @@ def print_graph_report(G: nx.Graph):
     log.info(sep)
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-#  SAUVEGARDE / CHARGEMENT
-# ─────────────────────────────────────────────────────────────────────────────
-
 def save_graph(G: nx.Graph, path: Path) -> None:
     """Sauvegarde uniquement graph.gpickle."""
     output_path = Path(path)
@@ -506,10 +463,6 @@ def load_graph(path: Path) -> nx.Graph:
     with open(path, "rb") as f:
         return pickle.load(f)
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  VISUALISATION
-# ─────────────────────────────────────────────────────────────────────────────
 
 def visualize_graph(
     G: nx.Graph,
@@ -734,10 +687,6 @@ def visualize_graph(
     plt.close(fig)
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-#  PIPELINE PRINCIPAL
-# ─────────────────────────────────────────────────────────────────────────────
-
 def build_pipeline(
     nodes_path  : Path = NODES_CSV,
     edges_path  : Path = EDGES_CSV,
@@ -767,8 +716,8 @@ def build_pipeline(
 
     log.info(" ---Sauvegarde du graphe---")
     output_path = Path(output_path)
-    save_graph(G, output_path)                              # .gpickle
-    save_nodes_with_centrality(G, output_path.parent)      # FIX 5 : appel explicite
+    save_graph(G, output_path)
+    save_nodes_with_centrality(G, output_path.parent)
 
     print_graph_report(G)
 

@@ -1,10 +1,25 @@
-# Federated Reinforcement Learning for Multi-Robot Navigation on Building Graphs
+# Federated Multi-Robot Navigation
 
-Code and recorded results for navigation on IFC-derived Office and Clinic building graphs, using tabular Q-learning, DQN and PPO with local, centralized or federated training. The simulator handles occupancy, node capacity, conflicting moves and an edge closure during navigation.
+Code and recorded results for **Federated Reinforcement Learning for Multi-Robot Navigation on Building Graphs**.
 
-## Quick start
+IFC building models are converted into navigation graphs. Robots learn with tabular Q-learning, DQN or PPO and are evaluated in a shared simulator with occupancy constraints, conflicting moves and edge closures.
 
-Use Python 3.11. The recorded follow-up experiments used Python 3.11.9 and PyTorch 2.12.0+cpu; metadata records the environment for individual runs. Install dependencies in a virtual environment:
+## Project structure
+
+| Directory | Purpose |
+| --- | --- |
+| `agents/`, `models/` | Learning agents, neural networks and GCN encoder |
+| `data/`, `environment/` | IFC parsing, graph construction and navigation simulator |
+| `federated/` | Local clients, FedAvg and visit-weighted aggregation |
+| `config/`, `scripts/` | Configuration, training and experiment entry points |
+| `evaluation/`, `tests/` | Evaluation, statistical analysis, figures and existing checks |
+| `runs/` | Evaluated graphs, frozen scenarios, training histories and results |
+| `artifacts/` | Compressed trained models and their manifest |
+| `docs/` | Reproduction instructions and data sources |
+
+## Installation
+
+Use Python 3.11 and install the dependencies in a virtual environment:
 
 ```sh
 python -m venv .venv
@@ -13,34 +28,29 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-The evaluated graphs, original Office encoder, fixed scenarios, per-seed evaluation CSVs and aggregate statistics are included. Reading the CSV results does not require training again. Trained policies are stored in compressed archives; restore them before an evaluation that loads saved policies:
+The general project entry point is `python run_project.py --help`.
+
+## Results
+
+The saved CSVs can be read without retraining. Start with the [results index](runs/RESULTS_INDEX.md).
+
+| Study | Aggregate results |
+| --- | --- |
+| Initial Office comparison | [Static](runs/Office_Building/final_results/all_methods_all_scales.csv), [edge closure](runs/Office_Building/final_results/dynamic_methods_all_scales.csv) |
+| Visit weighting and greedy shortest path | [Results](runs/Office_Building/review_additions/aggregate_review_results.csv) |
+| Neural ablation, budgets, Clinic, planning and spatial analyses | [Results](runs/Office_Building/review_followup/aggregate_followup_results.csv), [paired tests](runs/Office_Building/review_followup/followup_paired_tests.csv) |
+| Corrected Office-to-Clinic transfer | [Results](runs/Clinic_Architectural_width_corrected/review_transfer/aggregate_transfer.csv) |
+
+Federation improves over independent local learning in several evaluated settings. Its advantage over centralized learning depends on the setting, and planning remains a strong baseline. The GCN effect depends on the neural agent; visit weighting and cross-building transfer do not establish a general improvement.
+
+## Reproduction
+
+Evaluated graphs, fixed scenarios and per-seed outputs are included. Before an evaluation that loads trained policies, restore the model archives:
 
 ```sh
 python scripts/publication/restore_models.py
 ```
 
-See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the experiment entry points and exact result groups, and [DATA_SOURCES.md](DATA_SOURCES.md) for the IFC sources and graph provenance.
+See [reproduction instructions](docs/REPRODUCIBILITY.md) for the experiment entry points, budgets and statistics. See [data sources](docs/DATA_SOURCES.md) for the original IFC models and graph provenance.
 
-## Repository contents
-
-| Path | Contents |
-| --- | --- |
-| `agents/`, `models/` | Q-learning, DQN, PPO and GCN implementations |
-| `data/`, `environment/`, `federated/` | IFC parsing, graph construction, simulator and aggregation |
-| `scripts/`, `evaluation/`, `config/` | Training, evaluation, experiment matrices and configurations |
-| `runs/Office_Building/experiments/` | Initial ten-seed Office study, K=1,3,5,10 |
-| `runs/Office_Building/review_additions/` | Visit weighting and greedy shortest-path comparisons |
-| `runs/Office_Building/review_followup/` | Neural tuning/ablation/budgets, prioritized planning, conflict hotspots and spatial experiments |
-| `runs/Clinic_Architectural_width_corrected/` | Corrected Clinic graph, multi-robot experiments and transfer |
-| `artifacts/` | Final trained policies and neural budget checkpoints, compressed with original paths |
-| `PUBLICATION_MANIFEST.json` | File hashes, archived policy hashes and publication scope |
-
-## Reading the findings
-
-Federation improves over independent local Q-learning in several evaluated settings, but does not consistently outperform centralized learning or planning. Visit-count weighting did not improve the results. GCN versus raw features depends on the neural agent. Corrected cross-building transfer remains weak. A matched spatial control narrows the scope of the large gains on globally sampled tasks.
-
-The study evaluates two abstract building graphs and simulated federation in one process. It does not measure real network delays, client dropout, privacy guarantees or physical robot deployment. See the manuscript for the statistical families and limitations.
-
-The original experiment configuration also lists exploratory defaults and potential buildings. The paper's experiments are defined by the experiment scripts and saved manifests; a listed option is not evidence that an experiment was run.
-
-Raw IFC files and historical Clinic results from the incorrect door-width parser are excluded. Experiment data and model bytes are preserved. Recorded metadata contains historical local path strings; run commands from the repository root so the scripts construct the current paths.
+The study covers two abstract building graphs and simulated federation in one process. Real network conditions, privacy guarantees and physical robot deployment are outside the evaluated scope.

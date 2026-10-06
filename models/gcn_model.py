@@ -1,23 +1,4 @@
-"""
-models/gcn_model.py
-===================
-Étape 3 — Encodeur de graphe (GCN).
-
-Transforme le graphe de bâtiment (graph.gpickle) en embeddings de nœuds
-utilisables par les agents DQN et PPO.
-
-Architecture :
-    GraphDataConverter  : nx.Graph → tenseurs (features + adjacence normalisée)
-    GCNLayer            : une couche H' = σ(Ã H W), pure PyTorch
-    GCNEncoder          : 2–3 couches + BatchNorm + skip connection + dropout
-
-Pas de dépendance PyTorch Geometric — fonctionne avec torch seul.
-Pour N > 1 000 nœuds, voir NOTE SCALABILITÉ en bas de fichier.
-
-Usage :
-    python models/gcn_model.py --graph runs/Office_Building/data/processed/graph.gpickle
-    python models/gcn_model.py --synthetic   # test sans fichier IFC
-"""
+"""Dense PyTorch GCN encoding, link-prediction training and frozen embedding caches."""
 
 import hashlib
 import json
@@ -38,12 +19,10 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-# ─── Chemins par défaut ───────────────────────────────────────────────────────
 MODELS_DIR    = Path(__file__).parent
 PROCESSED_DIR = MODELS_DIR.parent / "data" / "processed"
 GRAPH_PKL     = PROCESSED_DIR / "graph.gpickle"
 
-# ─── Config des features ─────────────────────────────────────────────────────
 SPACE_TYPES = ["room", "corridor", "stair", "storage",
                "office", "hall", "exit", "toilet"]
 TYPE2IDX    = {t: i for i, t in enumerate(SPACE_TYPES)}
@@ -56,7 +35,6 @@ CONTINUOUS_FEATS = [
 N_CONTINUOUS  = len(CONTINUOUS_FEATS)   # 8
 NODE_FEAT_DIM = N_TYPES + N_CONTINUOUS  # 16
 
-# ─── Hyperparamètres par défaut ───────────────────────────────────────────────
 DEFAULT_HIDDEN  = 64
 DEFAULT_OUT_DIM = 64
 DEFAULT_DROPOUT = 0.10
@@ -71,10 +49,6 @@ EDGE_RELIABILITY = {
 }
 
 
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 1 — CONVERSION NetworkX → Tenseurs PyTorch
-# ═════════════════════════════════════════════════════════════════════════════
-
 class GraphDataConverter:
     """
     Convertit un nx.Graph (issu de graph_builder.py) en tenseurs PyTorch.
@@ -88,7 +62,6 @@ class GraphDataConverter:
     def __init__(self):
         self._node_map: Optional[Dict[int, int]] = None
 
-    # ── Features ──────────────────────────────────────────────────────────────
 
     def node_features(self, G) -> torch.Tensor:
         """
@@ -115,7 +88,6 @@ class GraphDataConverter:
 
         return x   # [N, 16]
 
-    # ── Adjacence normalisée ───────────────────────────────────────────────────
 
     def adjacency_matrix(self, G, sparse_threshold: int = 1000) -> torch.Tensor:
         """
@@ -153,7 +125,6 @@ class GraphDataConverter:
 
         return D @ A_hat @ D                       # Ã : [N, N]
 
-    # ── Interface principale ───────────────────────────────────────────────────
 
     def _sparse_normalized_adjacency(self, G, idx_map: Dict[Any, int], n: int) -> torch.Tensor:
         """Build the same normalized adjacency without an N x N allocation."""
@@ -222,10 +193,6 @@ class GraphDataConverter:
         )
 
 
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 2 — COUCHE GCN
-# ═════════════════════════════════════════════════════════════════════════════
-
 class GCNLayer(nn.Module):
     """
     Une couche de convolution de graphe :
@@ -260,10 +227,6 @@ class GCNLayer(nn.Module):
         return self.W(propagated)
 
 
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 3 — ENCODEUR GCN
-# ═════════════════════════════════════════════════════════════════════════════
-
 class GCNEncoder(nn.Module):
     """
     Encodeur GCN complet.
@@ -293,7 +256,6 @@ class GCNEncoder(nn.Module):
         self.dropout_p = dropout
         self.out_dim   = out_dim
 
-        # Dimensions couche par couche
         dims = [node_feat_dim] + [hidden_dim] * (n_layers - 1) + [out_dim]
 
         self.convs = nn.ModuleList([
@@ -312,7 +274,6 @@ class GCNEncoder(nn.Module):
             else nn.Identity()
         )
 
-    # ── Forward ───────────────────────────────────────────────────────────────
 
     def forward(
         self,
@@ -344,7 +305,6 @@ class GCNEncoder(nn.Module):
 
         return h + residual   # [N, out_dim]
 
-    # ── Raccourci : encoder tout le graphe en un appel ────────────────────────
 
     @torch.no_grad()
     def encode_graph(
@@ -369,7 +329,6 @@ class GCNEncoder(nn.Module):
         log.info(f"  Embeddings : {tuple(emb.shape)}  device={device}")
         return emb, node_map
 
-    # ── Résumé architecture ───────────────────────────────────────────────────
 
     def summary(self) -> str:
         params = sum(p.numel() for p in self.parameters() if p.requires_grad)
@@ -380,10 +339,6 @@ class GCNEncoder(nn.Module):
                 f"n_layers={self.n_layers}  "
                 f"params={params:,}")
 
-
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 4 — SAUVEGARDE / CHARGEMENT
-# ═════════════════════════════════════════════════════════════════════════════
 
 def save_gcn(model: GCNEncoder, path: Path, extra: dict = None) -> None:
     """Sauvegarde le modèle avec sa config pour le rechargement."""
@@ -655,10 +610,6 @@ def load_or_create_embeddings(
     return {node: array[i].copy() for i, node in enumerate(nodes)}, metadata
 
 
-# ═════════════════════════════════════════════════════════════════════════════
-#  SECTION 5 — TEST / DÉMONSTRATION
-# ═════════════════════════════════════════════════════════════════════════════
-
 def _demo_synthetic():
     """Teste le pipeline complet avec un graphe synthétique."""
     import sys
@@ -697,33 +648,28 @@ def _demo_synthetic():
 
     log.info(f"  Graphe : {G.number_of_nodes()} nœuds, {G.number_of_edges()} arêtes")
 
-    # Conversion
     conv  = GraphDataConverter()
     x, A_norm, node_map = conv.nx_to_tensors(G)
     log.info(f"  x={tuple(x.shape)}  A_norm={tuple(A_norm.shape)}")
     assert not torch.isnan(x).any(),      "NaN dans x !"
     assert not torch.isnan(A_norm).any(), "NaN dans A_norm !"
 
-    # Encodeur
     model = GCNEncoder(node_feat_dim=NODE_FEAT_DIM, hidden_dim=64,
                        out_dim=64, n_layers=2, dropout=0.1)
     log.info(f"  {model.summary()}")
 
-    # Forward pass (entraînement)
     model.train()
     emb_train = model(x, A_norm)
     assert emb_train.shape == (G.number_of_nodes(), 64), f"Shape inattendu : {emb_train.shape}"
     assert not torch.isnan(emb_train).any(), "NaN dans les embeddings !"
     log.info(f"  Embeddings (train) : {tuple(emb_train.shape)}  ✅")
 
-    # Inférence complète
     emb, nm = model.encode_graph(G)
     log.info(f"  Embeddings (eval)  : {tuple(emb.shape)}  ✅")
 
     # Vérification skip connection : embeddings ≠ 0
     assert emb.abs().mean() > 1e-4, "Embeddings tous nuls — problème de skip !"
 
-    # Sauvegarde / rechargement
     import tempfile, os
     with tempfile.NamedTemporaryFile(suffix=".pt", delete=False) as f:
         tmp_path = Path(f.name)
@@ -791,17 +737,3 @@ if __name__ == "__main__":
                         format="%(asctime)s [%(levelname)s] %(message)s",
                         datefmt="%H:%M:%S")
     main()
-
-
-# ─── NOTE SCALABILITÉ ─────────────────────────────────────────────────────────
-# Pour N > 1 000 nœuds, remplacer la matrice dense A_norm [N,N] par :
-#
-#   from torch_geometric.nn import GCNConv
-#   from torch_geometric.utils import from_networkx
-#
-# et adapter GCNLayer.forward() :
-#   def forward(self, x, edge_index):
-#       return self.conv(x, edge_index)
-#
-# Le reste du code (GCNEncoder, save/load) reste identique.
-# ─────────────────────────────────────────────────────────────────────────────
