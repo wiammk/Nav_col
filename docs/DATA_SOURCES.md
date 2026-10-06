@@ -8,6 +8,8 @@ Prepared graphs and features are included. Obtain raw IFC files from the origina
 | --- | --- |
 | Source model | KIT Institute, `AC20-Institute-Var-2.ifc` |
 | Source | [STEP Tools sample files](https://www.steptools.com/docs/stpfiles/ifc/) |
+| Original source and permission statement | [KIT IFC Examples](https://www.ifcwiki.org/index.php?title=KIT_IFC_Examples) |
+| Publication attribution | Institute for Automation and Applied Informatics (IAI) / Karlsruhe Institute of Technology (KIT) |
 | Local input name | `Office Building.ifc` |
 | Evaluated graph | 82 spaces, 204 edges, five floors |
 | Graph directory | `runs/Office_Building/data/processed/` |
@@ -18,7 +20,11 @@ Graph-file SHA-256: `786b90decb18cd7b466a68756b4c121db9eac76f99acd698ea308fc65fd
 
 Graph fingerprint used in model metadata: `bbb155bc3c33c01f61d9fecbe732a08ca2e80c61268ed169ca25a2f602e17339`.
 
-The source comparison differed only by a final newline. The raw Office file is not redistributed; applicable permissions must be checked with its source owner.
+The STEP Tools copy differs from the local file only by a final newline. The original KIT download also matches after normalizing CRLF/LF line endings and the terminal newline.
+
+The [KIT examples page, revision 552](https://www.ifcwiki.org/index.php?title=KIT_IFC_Examples&oldid=552), checked on 2026-10-06, states that the examples are for unrestricted use and asks users to credit the Institute for Automation and Applied Informatics (IAI) / Karlsruhe Institute of Technology (KIT) in publications. This is the source's permission statement; the page does not name a Creative Commons license. Preserve this attribution and source link with any redistributed copy. This repository provides the derived graph and links to the raw IFC at its original source rather than including the raw file.
+
+Original download: [AC20-Institute-Var-2.ifc](https://www.ifcwiki.org/images/9/98/AC20-Institute-Var-2.ifc). Its SHA-256 is `cfb2124497b25d9a72101075e84be0feb44ff669cb1bd3251be11efebeea945c`; the byte hash differs because of line endings.
 
 ## Clinic
 
